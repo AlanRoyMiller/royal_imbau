@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'img/favicon.webp' %}" id="favicon">
+    <title>404 - Page Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 10%;
+            background-color: #f6f8fa;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #2E72B9; /* Red */
+        }
+
+        p {
+            font-size: 20px;
+            color: #7f8c8d; /* Grey */
+        }
+        
+        a {
+            color: #3498db; /* Blue */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="{% url 'home' %}"><img src="{% static 'img/company-logo.webp' %}" alt="404 - Page Not Found" width="300px"></a>
+    <h1>404</h1>
+    <p>Oops! The page you're looking for doesn't exist.</p>
+    <p>¡Vaya! La página que estás buscando no existe.</p>
+    <p>Ups! Die Seite, die Sie suchen, existiert nicht.</p>
+
+    <p><a href="{% url 'home' %}">Go back to the homepage - Regresar a la página principal - Zurück zur Startseite</a></p>
+
+
+
+    
+</body>
+</html>

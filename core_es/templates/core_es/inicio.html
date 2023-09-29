@@ -1,0 +1,188 @@
+{% extends 'core_es/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+
+
+<div class="homepage-container">
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <div class="hero-title">
+                <h1>Soñando con</h1>
+                <h2 class="space-title"><span id="type-space"></span></h2>
+            </div>
+            <div class="hero-shape">
+                <p>Torne sus suenos en realidad con nuestros servicios especializados en construcción</p>
+
+                <a href="{% url 'contacto' %}" class="btn">Contáctenos</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="expertise-section">
+        <div class="expertise-title" id="expertise-blocks">
+            <div id="expertise-about-us">
+                <h1>Sobre Nosotros</h1>
+                <p>Somos un equipo de talentosos profesionales dedicados a ofrecer los mejores servicios de
+                    remodelación en
+                    la zona.</p>
+                <a href="{% url 'sobre-nosotros' %}" id="expertise-button">Aprenda más</a>
+            </div>
+            <div id="expertise-grid">
+                <div>
+                    <h2>1996</h2>
+                    <p>Fundada y ofreciendo excelencia desde entonces.</p>
+                </div>
+                <div>
+                    <h2>100+</h2>
+                    <p>Casas transformadas en hogares soñados</p>
+                </div>
+                <div>
+                    <h2>300+</h2>
+                    <p>Clientes satisfechos y sumando.</p>
+                </div>
+                <div>
+                    <h2>1</h2>
+                    <p>Un equipo de trabajadores altamente cualificados dedicados al éxito de su proyecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="services">
+        <h2 class="services-title">Todos nuestros servicios</h2>
+        <div class="service-cards-container">
+            <div class="service-card" data-aos="flip-up">
+                <ul>
+                    <li>Renovaciones completas</li>
+                    <li>Carpintería</li>
+                    <li>Fontanería</li>
+                    <li>Pintura</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="flip-up">
+                <ul>
+                    <li>Baños y Cocinas</li>
+                    <li>Alicatado y Pavimentación</li>
+                    <li>Montaje de muebles</li>
+                    <li>Eléctrica</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="homepage-images-section">
+        <h2>Un primer vistazo de lo que podemos hacer</h2>
+        <div class="swiffy-slider slider-item-show3 slider-item-reveal slider-item-snapstart">
+			<ul class="slider-container">
+				<li><img loading="lazy" src="{% static 'img/large/26.webp' %}" alt="Description of Image 26" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/27.webp' %}" alt="Description of Image 27" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/18.webp' %}" alt="Description of Image 27" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/28.webp' %}" alt="Description of Image 28" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/29.webp' %}" alt="Description of Image 29" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/30.webp' %}" alt="Description of Image 30" style="width: 100% ;height: auto;"></li>
+			</ul>
+		
+			<button type="button" class="slider-nav"></button>
+			<button type="button" class="slider-nav slider-nav-next"></button>
+		
+			<div class="slider-indicators">
+				<button class="active"></button>
+				<button></button>
+				<button></button>
+			</div>
+		</div>
+
+        <h3><a class="view-more" href="{% url 'gallery' %}">View our full Gallery...</a></h3>
+    </section>
+
+
+
+    <section class="testimonials">
+        <!-- <h1>What Our Customers Say</h1> -->
+        <div class="testimonial-carousel">
+            <!-- Carousel items here -->
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="cta-section">
+        <h2 class="space">Preparado para transformar su espacio?</h2>
+
+        <a href="https://wa.me/+34623336460" aria-label="contact us via whatsapp" target="_blank"
+            class="btn space">Contáctenos por Whatsapp</a>
+    </section>
+
+
+</div>
+
+
+
+<script>
+    let i = 0;
+    let j = 0;
+    let currentText = '';
+    const texts = [
+        "¿Una nueva Cocina?", "¿Un nuevo Baño?", "¿Un nuevo Dormitorio?", "¿Una nueva Sala de estar?",
+        "¿Un nuevo Comedor?", "¿Una nueva Oficina?", "¿Una nueva Sala de juegos?",
+        "¿Un nuevo Sótano?", "¿Un nuevo Ático?", "¿Un nuevo Cine en casa?", "¿Un nuevo Gimnasio?",
+        "¿Una nueva Piscina?", "¿Un nuevo Patio?", "¿Una nueva Terraza?", "¿Un nuevo Porche?", "¿Un nuevo Jardín?", "¿Un nuevo Garaje?", "¿Una nueva Acera?", "¿Una nueva Escalera?",
+        "¿Un nuevo Balcón?", "¿Un nuevo Tejado?"
+    ];
+
+
+
+
+
+
+    const speed = 50; // speed/duration of the effect in milliseconds
+    const pauseTime = 2000;
+
+    function typeWriter() {
+        if (i < texts[j].length) {
+            currentText += texts[j].charAt(i);
+            document.getElementById("type-space").innerHTML = currentText;
+            i++;
+            setTimeout(typeWriter, speed);
+        } else {
+            setTimeout(eraseWriter, pauseTime);
+        }
+        setTimeout
+    }
+
+    function eraseWriter() {
+        if (i >= 0) {
+            currentText = currentText.substring(0, currentText.length - 1);
+            document.getElementById("type-space").innerHTML = currentText;
+            i--;
+            setTimeout(eraseWriter, speed);
+        } else {
+            j++;
+            if (j >= texts.length) j = 0; // loop back to the first text
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    // Call the function when the page loads
+    window.onload = typeWriter;
+</script>
+
+
+{% endblock %}

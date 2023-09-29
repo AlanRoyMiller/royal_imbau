@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta name="description"
+        content="Royal Imbau Specializes in transformative home and commercial renovations, our construction team merges innovative designs with expert craftsmanship to bring your vision to life. Revitalize your space with us today!">
+    <title>Royal Imbau</title>
+    <link rel="preload" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="icon" href="{% static 'img/favicon.ico' %}" id="favicon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+
+
+<body>
+
+    {% include 'core/navbar.html' %}
+
+    {% block content %}
+    <!-- content -->
+    {% endblock %}
+
+    {% include 'core/footer.html' %}
+
+</body>
+
+
+
+
+
+
+</html>

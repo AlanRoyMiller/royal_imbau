@@ -1,0 +1,28 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+
+
+<nav class="navbar">
+  <a href="{% url 'startseite' %}"><img srcset="{% static 'img/company-logo DE.webp' %}" class="logo" alt="company-logo"></a>
+
+  <div class="nav-links">
+    <ul>
+      <li class="active"><a href="{% url 'startseite' %}">Startseite</a></li>
+      <li><a href="{% url 'ueberuns' %}">Über uns</a></li>
+      <li><a href="{% url 'galerie' %}">Galerie</a></li>
+      <li><a href="{% url 'kontakt' %}">Kontakt</a></li>
+    </ul>
+  </div>
+
+  <select name="languages" id="languages">
+    <option value="english">English</option>
+    <option value="spanish">Español</option>
+    <option value="german">Deutsch</option>
+  </select>
+
+  <img src="{% static 'img/menu-btn.webp' %}" alt="mobile-menu" class="menu-hamburger">
+
+  <script src="{% static 'js/hamburger-menu.js' %}"></script>
+
+  <script src="{% static 'js/language-changer.js' %}"></script>
+</nav>

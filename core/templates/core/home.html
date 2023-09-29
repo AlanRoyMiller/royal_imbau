@@ -1,0 +1,182 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+
+<div class="homepage-container">
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <div class="hero-title">
+                <h1>Dreaming of a new</h1>
+                <h1 class="space-title"><span id="type-space"></span></h1>
+            </div>
+            <div class="hero-shape">
+                <p>Shape your dreams into reality with our specialized construction
+                    services.</p>
+
+                <a href="{% url 'contact' %}" class="btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="expertise-section">
+        <div class="expertise-title" id="expertise-blocks">
+            <div id="expertise-about-us">
+                <h1>About Us</h1>
+                <p>We are a team of talented professionals dedicated to delivering the best remodeling services in
+                    the area.</p>
+                <a href="{% url 'about' %}" id="expertise-button" >Learn More About Us</a>
+            </div>
+            <div id="expertise-grid">
+                <div>
+                    <h2>1996</h2>
+                    <p>Founded and delivering excellence ever since.</p>
+                </div>
+                <div>
+                    <h2>100+</h2>
+                    <p>Houses transformed into dream homes.</p>
+                </div>
+                <div>
+                    <h2>300+</h2>
+                    <p>Happy customers and counting.</p>
+                </div>
+                <div>
+                    <h2>1</h2>
+                    <p>A team of highly Skilled workers dedicated to your project's success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="services">
+        <h2 class="services-title">All of our services</h2>
+        <div class="service-cards-container">
+            <div class="service-card" data-aos="flip-up">
+                <ul>
+                    <li>Full renovations</li>
+                    <li>Carpentry</li>
+                    <li>Plumbing</li>
+                    <li>Painting</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="flip-up">
+                <ul>
+                    <li>Bathrooms and Kitchens</li>
+                    <li>Tiling and Paving</li>
+                    <li>Furniture Fitting</li>
+                    <li>Electrical</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="homepage-images-section">
+        <h2>A first glance of what we can do</h2>
+        <div class="swiffy-slider slider-item-show3 slider-item-reveal slider-item-snapstart">
+			<ul class="slider-container">
+				<li><img loading="lazy" src="{% static 'img/large/26.webp' %}" alt="Description of Image 26" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/27.webp' %}" alt="Description of Image 27" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/18.webp' %}" alt="Description of Image 27" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/28.webp' %}" alt="Description of Image 28" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/29.webp' %}" alt="Description of Image 29" style="width: 100% ;height: auto;"></li>
+				<li><img loading="lazy" src="{% static 'img/large/30.webp' %}" alt="Description of Image 30" style="width: 100% ;height: auto;"></li>
+			</ul>
+		
+			<button type="button" class="slider-nav"></button>
+			<button type="button" class="slider-nav slider-nav-next"></button>
+		
+			<div class="slider-indicators">
+				<button class="active"></button>
+				<button></button>
+				<button></button>
+			</div>
+		</div>
+
+        <h3><a class="view-more" href="{% url 'gallery' %}">View our full Gallery...</a></h3>
+    </section>
+
+
+
+
+    <section class="testimonials">
+        <!-- <h1>What Our Customers Say</h1> -->
+        <div class="testimonial-carousel">
+            <!-- Carousel items here -->
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="cta-section">
+        <h2 class="space">Ready to transform your space?</h2>
+
+        <a href="https://wa.me/+34623336460" aria-label="contact us via whatsapp" target="_blank"
+            class="btn space">Contact Us via Whatsapp</a>
+    </section>
+
+
+</div>
+
+
+
+<script>
+    let i = 0;
+    let j = 0;
+    let currentText = '';
+    const texts = ["Kitchen?", "Bathroom?", "Bedroom?", "Living Room?", "Dining Room?", "Home Office?", "Playroom?", "Basement?", "Attic?", "Home Theater?", "Gym?", "Pool?", "Patio?", "Deck?", "Porch?", "Backyard?", "Garden?", "Garage?", "Pavement?", "Staircase?", "Balcony?", "Roof?"];
+
+
+    const speed = 50; // speed/duration of the effect in milliseconds
+    const pauseTime = 2000;
+
+    function typeWriter() {
+        if (i < texts[j].length) {
+            currentText += texts[j].charAt(i);
+            document.getElementById("type-space").innerHTML = currentText;
+            i++;
+            setTimeout(typeWriter, speed);
+        } else {
+            setTimeout(eraseWriter, pauseTime);
+        }
+        setTimeout
+    }
+
+    function eraseWriter() {
+        if (i >= 0) {
+            currentText = currentText.substring(0, currentText.length - 1);
+            document.getElementById("type-space").innerHTML = currentText;
+            i--;
+            setTimeout(eraseWriter, speed);
+        } else {
+            j++;
+            if (j >= texts.length) j = 0; // loop back to the first text
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    // Call the function when the page loads
+    window.onload = typeWriter;
+</script>
+
+
+
+{% endblock %}

@@ -1,0 +1,1 @@
+web: gunicorn royal_imbau.wsgi --log-file -

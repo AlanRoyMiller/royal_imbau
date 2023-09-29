@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/static/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body { 
+    min-height: 100vh;
+    font-family: 'Poppins', 'Arial', 'Helvetica';
+    font-weight: bold;
+    overflow-x: hidden;
+    color: #1e2831;
+    background-color: #f3f3f2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+
+a {
+    color: #2E72B9;
+}
+
+a:hover {
+    color: #5f93cd;
+    transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 900px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    
+    body {
+        position: relative;
+    }
+}

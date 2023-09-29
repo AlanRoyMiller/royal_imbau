@@ -1,0 +1,53 @@
+{% extends 'core_de/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/about_us.css' %}">
+
+
+<div class="image-text-container">
+
+    <div class="content-row">
+        <div class="content-text">
+            <h2 class="section-title">Spezialisten für Modernes Renovieren und Fliesenlegen</h2>
+            <div class="blue-line"></div>
+            <p>Spezialisiert auf zeitgenössisches Fliesenlegen und Renovieren, streben wir danach, Räume von Bädern
+                bis zu Küchen und ganzen Häusern zu verjüngen. Unser Ziel ist es, Ihren Raum nicht nur optisch
+                beeindruckend zu gestalten, sondern auch ein Zeugnis Ihrer Eleganz und Ihres Stils.</p>
+        </div>
+        <img loading="lazy" class="content-image" src="{% static 'img/quincho0.webp' %}" alt="Description of Image" />
+    </div>
+    <div class="content-row">
+        <div class="content-text">
+            <h2 class="section-title">Visionen in Realität Umwandeln</h2>
+            <div class="blue-line"></div>
+            <p>Wir sind darauf spezialisiert, zeitgenössische und luxuriöse Akzente für diejenigen zu setzen, die ein
+                Auge für das
+                Außergewöhnliche haben. Ihre Vision in das Haus Ihrer Träume zu verwandeln, ist unser Engagement, und
+                Ihre Freude inspiriert uns täglich.</p>
+        </div>
+        <img loading="lazy" class="content-image" src="{% static 'img/quincho1.webp' %}" alt="Description of Image" />
+    </div>
+
+    <div class="content-row">
+        <div class="content-text">
+            <h2 class="section-title">Gehen Sie mit uns Ihre Heimreise an</h2>
+            <div class="blue-line"></div>
+            <p>Lassen Sie uns Sie auf Ihrer Reise begleiten, um etwas wirklich Spektakuläres zu schaffen. Wählen Sie
+                Royal Imbau, wo
+                das Haus Ihrer Träume auf Sie wartet.</p>
+        </div>
+        <img loading="lazy" class="content-image" src="{% static 'img/landscape.webp' %}" alt="Description of Image" />
+    </div>
+
+</div>
+
+<div id="contact-btn">
+    <a href="https://wa.me/+34623336460" aria-label="contact us via whatsapp" target="_blank" class="btn">Kontaktieren
+        Sie uns über Whatsapp</a>
+</div>
+
+
+
+{% endblock content %}

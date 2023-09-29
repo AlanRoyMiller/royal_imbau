@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{% static 'css/footer.css' %}">
+</head>
+
+<body>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-logo"><a href="#"><img src="{% static 'img/footer-logo.webp' %}" class="logo"
+							alt="company-logo"></a>
+				</div>
+
+				<div class="nav-footer-col">
+					<ul class="nav-rows">
+						<li><a href="{% url 'inicio' %}">Inicio</a></li>
+						<li><a href="{% url 'sobre-nosotros' %}">Sobre Nosotros</a></li>
+						<li><a href="{% url 'galeria' %}">Galería</a></li>
+						<li><a href="{% url 'contacto' %}">Contáctenos</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<div class="social-links">
+						<a href="https://www.instagram.com/royal.imbau/" target="_blank" rel="noopener noreferrer"
+							aria-label="visit our instagram page"><i class="fab fa-instagram"></i></a>
+						<a href="#" aria-label="visit our facebook page"><i class="fab fa-facebook"></i></a>
+						<a href="https://wa.me/+34623336460" aria-label="contact us via whatsapp" target="_blank"><i
+								class="fab fa-whatsapp"></i></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
+
+<link rel="stylesheet" type="text/css"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">

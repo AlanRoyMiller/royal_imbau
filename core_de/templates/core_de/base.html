@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="de">
+
+<head>
+    <meta name="description"
+        content="Royal Imbau hat sich auf die Renovierung von Wohn- und Geschäftsräumen spezialisiert und verbindet innovative Entwürfe mit fachmännischer Handwerkskunst, um Ihre Visionen zu verwirklichen. Renovieren Sie Ihren Raum noch heute mit uns.">
+    <title>Royal Imbau</title>
+    <link rel="preload" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="icon" href="{% static 'img/favicon.ico' %}" id="favicon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+
+<body>
+
+    {% include 'core_de/navbar.html' %}
+
+    {% block content %}
+    <!-- content -->
+    {% endblock %}
+
+    {% include 'core_de/footer.html' %}
+
+</body>
+
+
+
+
+
+
+</html>
