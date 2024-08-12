@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from .forms import ContactMessageForm
 from django.core.mail import EmailMessage
 
+import logging
+logger = logging.getLogger(__name__)
 
 def home(request):
     return render(request, 'core/home.html')
@@ -11,34 +13,30 @@ def contact(request):
     if request.method == 'POST':
         form = ContactMessageForm(request.POST)
 
-        # check if the form is valid and clean the data
         if form.is_valid():
-            print("Form is valid")
+            try:
+                instance = form.save()
 
-            # save the form
-            instance = form.save()
+                full_message = f"First Name: {instance.first_name}\nLast Name: {instance.last_name}\nEmail: {instance.email}\nPhone: {instance.phone}\n\n{instance.message}"
 
-            # prepare the message
-            full_message = f"First Name: {instance.first_name}\nLast Name: {instance.last_name}\nEmail: {instance.email}\nPhone: {instance.phone}\n\n{instance.message}"
-
-            # send the email
-            email = EmailMessage(
-                subject=instance.subject,
-                body=full_message,
-                from_email='royal.imbau.mail@gmail.com', # This is your sending Gmail address
-                to=['alejandro.imbau@gmail.com'],  # Your Gmail address where you want to receive the form details
-                reply_to=[instance.email],  # This allows you to reply directly to the person who filled out the form
-            )
-            email.send()
-
-            return redirect('/contact/?submitted=True')
+                email = EmailMessage(
+                    subject=instance.subject,
+                    body=full_message,
+                    from_email='royal.imbau.mail@gmail.com',
+                    to=['alejandro.imbau@gmail.com'],
+                    reply_to=[instance.email],
+                )
+                email.send()
+                return redirect('/contact/?submitted=True')
+            except Exception as e:
+                logger.error(f"Error during form submission: {e}")
+                return render(request, 'core/contact.html', {'form': form, 'submission_error': True})
         else:
-            print(form.errors)  # Print form errors if the form is not valid
+            logger.error(f"Form errors: {form.errors}")
             return render(request, 'core/contact.html', {'form': form})
     else:
         form = ContactMessageForm()
 
-    form_submitted = 'submitted' in request.GET
     return render(request, 'core/contact.html', {'form': form})
 
 
