@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 21:08+0200\n"
+"POT-Creation-Date: 2025-05-26 21:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -279,17 +279,27 @@ msgstr "Träumen Sie von einem neuen"
 #: .\core\templates\core\home.html:21
 msgid ""
 "Shape your dreams into reality with our specialized construction services."
-msgstr "Verwirklichen Sie Ihre Träume mit unseren spezialisierten Baudienstleistungen."
+msgstr ""
+"Verwirklichen Sie Ihre Träume mit unseren spezialisierten "
+"Baudienstleistungen."
 
 #: .\core\templates\core\home.html:23
 msgid "Get Started"
 msgstr "Jetzt starten"
 
+#: .\core\templates\core\home.html:33 .\core\templates\core\navbar.html:18
+#, fuzzy
+#| msgid "About"
+msgid "About Us"
+msgstr "Über uns"
+
 #: .\core\templates\core\home.html:34
 msgid ""
 "We are a team of talented professionals dedicated to delivering the best "
 "remodeling services in the area."
-msgstr "Wir sind ein Team talentierter Fachleute, das sich der besten Renovierungsarbeit in der Region verschrieben hat."
+msgstr ""
+"Wir sind ein Team talentierter Fachleute, das sich der besten "
+"Renovierungsarbeit in der Region verschrieben hat."
 
 #: .\core\templates\core\home.html:35
 msgid "Learn More About Us"
@@ -309,7 +319,9 @@ msgstr "Zufriedene Kunden und es werden immer mehr."
 
 #: .\core\templates\core\home.html:52
 msgid "A team of highly Skilled workers dedicated to your project's success."
-msgstr "Ein Team hochqualifizierter Fachkräfte, das sich dem Erfolg Ihres Projekts widmet."
+msgstr ""
+"Ein Team hochqualifizierter Fachkräfte, das sich dem Erfolg Ihres Projekts "
+"widmet."
 
 #: .\core\templates\core\home.html:63
 msgid "All of our services"
