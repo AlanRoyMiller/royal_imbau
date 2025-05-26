@@ -137,7 +137,7 @@
     <link rel="stylesheet" href="{% static 'css/contact.css' %}">
 
 
-    <h1 id="form-title">Send us a Message</h1>
+    <h1 id="form-title">Or send us a Message</h1>
     <h2 id="form-response">
         {% if form_submitted %}
             🎉 Your message was sent successfully!
@@ -149,7 +149,7 @@
 
     <div class="contact-forms">
 
-        <form class="email-form" id="contact-form" method="post" action="{% url 'contact' %}">
+        <form class="email-form" id="contact-form" method="post" action="">
             {% csrf_token %}
 
             {% for field in form %}
