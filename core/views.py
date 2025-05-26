@@ -51,7 +51,10 @@ def home(request):
         form = ContactMessageForm()
 
     form_submitted = 'submitted' in request.GET
-    return render(request, 'core/home.html', {'form': form})
+    return render(request, 'core/home.html', {
+        'form': form,
+        'form_submitted': form_submitted,
+    })
     return render(request, 'core/home.html')
 
 

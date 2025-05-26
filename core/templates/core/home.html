@@ -138,7 +138,14 @@
 
 
     <h1 id="form-title">Send us a Message</h1>
-    <h2 id="form-response"></h2>
+    <h2 id="form-response">
+        {% if form_submitted %}
+            🎉 Your message was sent successfully!
+        {% endif %}
+        {% if submission_error %}
+            ❌ There was an error sending your message. Please try again later.
+        {% endif %}
+</h2>
 
     <div class="contact-forms">
 
