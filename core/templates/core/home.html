@@ -165,9 +165,10 @@
         {% endif %}
       
         {% if submission_error %}
-          <div class="alert alert-warning">
-            There was an error processing your request. Our team has been notified.
-          </div>
+            <div class="error-summary">
+              ❌ There was a problem sending your message:<br>
+              <code>{{ error_message }}</code>
+            </div>
         {% endif %}
         <form class="email-form" id="contact-form" method="post" action="{% url 'home' %}">
             {% csrf_token %}

@@ -45,10 +45,11 @@ def home(request):
             return redirect(f"{reverse('home')}?submitted=True")
 
         except Exception as e:
-            logger.error("Error sending email: %s", e, exc_info=True)
+            logger.error("Error sending email", exc_info=True)
             return render(request, 'core/home.html', {
                 'form': form,
                 'submission_error': True,
+                'error_message': str(e),
             })
 
     # GET (or after redirect)
