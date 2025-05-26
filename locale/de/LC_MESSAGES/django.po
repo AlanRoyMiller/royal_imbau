@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 18:28+0200\n"
+"POT-Creation-Date: 2025-05-26 21:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -34,7 +34,10 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                Als Experten für moderne Fliesenarbeiten und Renovierungen bringen wir neuen Schwung in jeden Raum – vom Bad über die Küche bis zum gesamten Haus. Unser Ziel ist es, Ihr Zuhause nicht nur optisch aufzuwerten, sondern auch Ihre Eleganz und Ihren Stil zum Ausdruck zu bringen.\n"
+"                Als Experten für moderne Fliesenarbeiten und Renovierungen "
+"bringen wir neuen Schwung in jeden Raum – vom Bad über die Küche bis zum "
+"gesamten Haus. Unser Ziel ist es, Ihr Zuhause nicht nur optisch aufzuwerten, "
+"sondern auch Ihre Eleganz und Ihren Stil zum Ausdruck zu bringen.\n"
 "                "
 
 #: .\core\templates\core\about.html:27
@@ -56,7 +59,9 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                Wir bieten moderne und luxuriöse Akzente für alle, die das Besondere schätzen. Ihre Vision in Ihr Traumhaus zu verwandeln ist unser Anspruch – Ihre Zufriedenheit inspiriert uns jeden Tag.\n"
+"                Wir bieten moderne und luxuriöse Akzente für alle, die das "
+"Besondere schätzen. Ihre Vision in Ihr Traumhaus zu verwandeln ist unser "
+"Anspruch – Ihre Zufriedenheit inspiriert uns jeden Tag.\n"
 "                "
 
 #: .\core\templates\core\about.html:47
@@ -76,18 +81,19 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen. Wählen Sie Royal Imbau – Ihr Traumhaus wartet schon auf Sie.\n"
+"                Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen. "
+"Wählen Sie Royal Imbau – Ihr Traumhaus wartet schon auf Sie.\n"
 "                "
 
 #: .\core\templates\core\about.html:66
 msgid "Elegant outdoor living space"
 msgstr "Eleganter Außenwohnbereich"
 
-#: .\core\templates\core\about.html:75
+#: .\core\templates\core\about.html:75 .\core\templates\core\home.html:131
 msgid "contact us via whatsapp"
 msgstr "Kontaktieren Sie uns über WhatsApp"
 
-#: .\core\templates\core\about.html:79
+#: .\core\templates\core\about.html:79 .\core\templates\core\home.html:132
 msgid "Contact Us via Whatsapp"
 msgstr "Kontaktieren Sie uns über WhatsApp"
 
@@ -97,7 +103,10 @@ msgid ""
 "merging innovative designs with expert craftsmanship to bring your vision to "
 "life. Revitalize your space with us today!"
 msgstr ""
-"Royal Imbau ist spezialisiert auf transformative Renovierungen für Privat- und Gewerberäume. Wir verbinden innovative Designs mit fachmännischer Handwerkskunst, um Ihre Vorstellungen Wirklichkeit werden zu lassen. Verleihen Sie Ihrem Zuhause mit uns neuen Glanz!"
+"Royal Imbau ist spezialisiert auf transformative Renovierungen für Privat- "
+"und Gewerberäume. Wir verbinden innovative Designs mit fachmännischer "
+"Handwerkskunst, um Ihre Vorstellungen Wirklichkeit werden zu lassen. "
+"Verleihen Sie Ihrem Zuhause mit uns neuen Glanz!"
 
 #: .\core\templates\core\base.html:8
 msgid "Royal Imbau"
@@ -119,19 +128,15 @@ msgstr "Über uns"
 msgid "Gallery"
 msgstr "Galerie"
 
-#: .\core\templates\core\footer.html:33
-msgid "Contact"
-msgstr "Kontakt"
-
-#: .\core\templates\core\footer.html:43
+#: .\core\templates\core\footer.html:42
 msgid "Visit our Instagram page"
 msgstr "Besuchen Sie uns auf Instagram"
 
-#: .\core\templates\core\footer.html:49
+#: .\core\templates\core\footer.html:48
 msgid "Visit our Facebook page"
 msgstr "Besuchen Sie uns auf Facebook"
 
-#: .\core\templates\core\footer.html:55
+#: .\core\templates\core\footer.html:54
 msgid "Contact us via WhatsApp"
 msgstr "Kontaktieren Sie uns über WhatsApp"
 
@@ -267,30 +272,141 @@ msgstr "Beschreibung von Bild 0"
 msgid "Description of Image 1"
 msgstr "Beschreibung von Bild 1"
 
+#: .\core\templates\core\home.html:17
+msgid "Dreaming of a new"
+msgstr "Träumen Sie von einem neuen"
+
+#: .\core\templates\core\home.html:21
+msgid ""
+"Shape your dreams into reality with our specialized construction services."
+msgstr "Verwirklichen Sie Ihre Träume mit unseren spezialisierten Baudienstleistungen."
+
+#: .\core\templates\core\home.html:23
+msgid "Get Started"
+msgstr "Jetzt starten"
+
+#: .\core\templates\core\home.html:34
+msgid ""
+"We are a team of talented professionals dedicated to delivering the best "
+"remodeling services in the area."
+msgstr "Wir sind ein Team talentierter Fachleute, das sich der besten Renovierungsarbeit in der Region verschrieben hat."
+
+#: .\core\templates\core\home.html:35
+msgid "Learn More About Us"
+msgstr "Mehr über uns erfahren"
+
+#: .\core\templates\core\home.html:40
+msgid "Founded and delivering excellence ever since."
+msgstr "Gegründet und seitdem stets exzellente Leistungen erbracht."
+
+#: .\core\templates\core\home.html:44
+msgid "Houses transformed into dream homes."
+msgstr "Häuser in Traumhäuser verwandelt."
+
+#: .\core\templates\core\home.html:48
+msgid "Happy customers and counting."
+msgstr "Zufriedene Kunden und es werden immer mehr."
+
+#: .\core\templates\core\home.html:52
+msgid "A team of highly Skilled workers dedicated to your project's success."
+msgstr "Ein Team hochqualifizierter Fachkräfte, das sich dem Erfolg Ihres Projekts widmet."
+
+#: .\core\templates\core\home.html:63
+msgid "All of our services"
+msgstr "Alle unsere Dienstleistungen"
+
+#: .\core\templates\core\home.html:67
+msgid "Full renovations"
+msgstr "Komplettsanierungen"
+
+#: .\core\templates\core\home.html:68
+msgid "Carpentry"
+msgstr "Tischlerarbeiten"
+
+#: .\core\templates\core\home.html:69
+msgid "Plumbing"
+msgstr "Sanitärarbeiten"
+
+#: .\core\templates\core\home.html:70
+msgid "Painting"
+msgstr "Malerarbeiten"
+
+#: .\core\templates\core\home.html:75
+msgid "Bathrooms and Kitchens"
+msgstr "Bäder und Küchen"
+
+#: .\core\templates\core\home.html:76
+msgid "Tiling and Paving"
+msgstr "Fliesen- und Pflasterarbeiten"
+
+#: .\core\templates\core\home.html:77
+msgid "Furniture Fitting"
+msgstr "Möbelmontage"
+
+#: .\core\templates\core\home.html:78
+msgid "Electrical"
+msgstr "Elektroarbeiten"
+
+#: .\core\templates\core\home.html:88
+msgid "A first glance of what we can do"
+msgstr "Ein erster Eindruck von unseren Möglichkeiten"
+
+#: .\core\templates\core\home.html:109
+msgid "View our full Gallery..."
+msgstr "Unsere gesamte Galerie ansehen..."
+
+#: .\core\templates\core\home.html:116
+msgid "What Our Customers Say"
+msgstr "Was unsere Kunden sagen"
+
+#: .\core\templates\core\home.html:129
+msgid "Ready to transform your space?"
+msgstr "Bereit, Ihren Raum zu verwandeln?"
+
+#: .\core\templates\core\home.html:136
+msgid "Or send us a Message"
+msgstr "Oder senden Sie uns eine Nachricht"
+
+#: .\core\templates\core\home.html:139
+msgid "🎉 Your message was sent successfully!"
+msgstr "🎉 Ihre Nachricht wurde erfolgreich gesendet!"
+
+#: .\core\templates\core\home.html:148
+msgid "❌ There was a problem sending your message:"
+msgstr "❌ Beim Senden Ihrer Nachricht ist ein Problem aufgetreten:"
+
+#: .\core\templates\core\home.html:163
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: .\core\templates\core\home.html:170
+msgid "Give us a Call"
+msgstr "Rufen Sie uns an"
+
+#: .\core\templates\core\home.html:174
+msgid "Address"
+msgstr "Adresse"
+
 #: .\core\templates\core\navbar.html:11
 msgid "Company logo"
 msgstr "Firmenlogo"
 
-#: .\core\templates\core\navbar.html:18
-msgid "About Us"
-msgstr "Über uns"
-
-#: .\core\templates\core\navbar.html:23
+#: .\core\templates\core\navbar.html:26
 msgid "Select language"
 msgstr "Sprache auswählen"
 
-#: .\core\templates\core\navbar.html:25
-msgid "English"
-msgstr "Englisch"
-
-#: .\core\templates\core\navbar.html:28
-msgid "Spanish"
-msgstr "Spanisch"
-
-#: .\core\templates\core\navbar.html:31
-msgid "German"
-msgstr "Deutsch"
-
-#: .\core\templates\core\navbar.html:37
+#: .\core\templates\core\navbar.html:38
 msgid "Mobile menu button"
 msgstr "Menüknopf für Mobilgeräte"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "English"
+#~ msgstr "Englisch"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanisch"
+
+#~ msgid "German"
+#~ msgstr "Deutsch"

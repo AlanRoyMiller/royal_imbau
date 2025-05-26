@@ -1,6 +1,7 @@
 {% extends 'core/base.html' %}
 {% load static %}
 {% load static i18n %}
+{% load i18n %}
 {% block content %}
 
 <link rel="stylesheet" href="{% static 'css/home.css' %}">
@@ -13,14 +14,13 @@
     <section class="hero-section">
         <div class="hero-text">
             <div class="hero-title">
-                <h1>Dreaming of a new</h1>
+                <h1>{% trans "Dreaming of a new" %}</h1>
                 <h1 class="space-title"><span id="type-space"></span></h1>
             </div>
             <div class="hero-shape">
-                <p>Shape your dreams into reality with our specialized construction
-                    services.</p>
+                <p>{% trans "Shape your dreams into reality with our specialized construction services." %}</p>
 
-                <a href="#contact-forms" class="btn">Get Started</a>
+                <a href="#contact-forms" class="btn">{% trans "Get Started" %}</a>
             </div>
         </div>
     </section>
@@ -30,27 +30,26 @@
     <section class="expertise-section">
         <div class="expertise-title" id="expertise-blocks">
             <div id="expertise-about-us">
-                <h1>About Us</h1>
-                <p>We are a team of talented professionals dedicated to delivering the best remodeling services in
-                    the area.</p>
-                <a href="{% url 'about' %}" id="expertise-button" >Learn More About Us</a>
+                <h1>{% trans "About Us" %}</h1>
+                <p>{% trans "We are a team of talented professionals dedicated to delivering the best remodeling services in the area." %}</p>
+                <a href="{% url 'about' %}" id="expertise-button">{% trans "Learn More About Us" %}</a>
             </div>
             <div id="expertise-grid">
                 <div>
                     <h2>1996</h2>
-                    <p>Founded and delivering excellence ever since.</p>
+                    <p>{% trans "Founded and delivering excellence ever since." %}</p>
                 </div>
                 <div>
                     <h2>100+</h2>
-                    <p>Houses transformed into dream homes.</p>
+                    <p>{% trans "Houses transformed into dream homes." %}</p>
                 </div>
                 <div>
                     <h2>300+</h2>
-                    <p>Happy customers and counting.</p>
+                    <p>{% trans "Happy customers and counting." %}</p>
                 </div>
                 <div>
                     <h2>1</h2>
-                    <p>A team of highly Skilled workers dedicated to your project's success.</p>
+                    <p>{% trans "A team of highly Skilled workers dedicated to your project's success." %}</p>
                 </div>
             </div>
         </div>
@@ -61,22 +60,22 @@
 
 
     <section class="services">
-        <h2 class="services-title">All of our services</h2>
+        <h2 class="services-title">{% trans "All of our services" %}</h2>
         <div class="service-cards-container">
             <div class="service-card" data-aos="flip-up">
                 <ul>
-                    <li>Full renovations</li>
-                    <li>Carpentry</li>
-                    <li>Plumbing</li>
-                    <li>Painting</li>
+                    <li>{% trans "Full renovations" %}</li>
+                    <li>{% trans "Carpentry" %}</li>
+                    <li>{% trans "Plumbing" %}</li>
+                    <li>{% trans "Painting" %}</li>
                 </ul>
             </div>
             <div class="service-card" data-aos="flip-up">
                 <ul>
-                    <li>Bathrooms and Kitchens</li>
-                    <li>Tiling and Paving</li>
-                    <li>Furniture Fitting</li>
-                    <li>Electrical</li>
+                    <li>{% trans "Bathrooms and Kitchens" %}</li>
+                    <li>{% trans "Tiling and Paving" %}</li>
+                    <li>{% trans "Furniture Fitting" %}</li>
+                    <li>{% trans "Electrical" %}</li>
                 </ul>
             </div>
         </div>
@@ -86,7 +85,7 @@
 
 
     <section class="homepage-images-section">
-        <h2>A first glance of what we can do</h2>
+        <h2>{% trans "A first glance of what we can do" %}</h2>
         <div class="swiffy-slider slider-item-show3 slider-item-reveal slider-item-snapstart">
 			<ul class="slider-container">
 				<li><img loading="lazy" src="{% static 'img/large/26.webp' %}" alt="Description of Image 26" style="width: 100% ;height: auto;"></li>
@@ -107,14 +106,14 @@
 			</div>
 		</div>
 
-        <h3><a class="view-more" href="{% url 'gallery' %}">View our full Gallery...</a></h3>
+        <h3><a class="view-more" href="{% url 'gallery' %}">{% trans "View our full Gallery..." %}</a></h3>
     </section>
 
 
 
 
     <section class="testimonials">
-        <!-- <h1>What Our Customers Say</h1> -->
+        <!-- <h1>{% trans "What Our Customers Say" %}</h1> -->
         <div class="testimonial-carousel">
             <!-- Carousel items here -->
         </div>
@@ -127,40 +126,26 @@
 
 
     <section class="cta-section">
-        <h2 class="space">Ready to transform your space?</h2>
+        <h2 class="space">{% trans "Ready to transform your space?" %}</h2>
 
-        <a href="https://wa.me/+34623336460" aria-label="contact us via whatsapp" target="_blank"
-            class="btn space">Contact Us via Whatsapp</a>
+        <a href="https://wa.me/+34623336460" aria-label="{% trans 'contact us via whatsapp' %}" target="_blank"
+            class="btn space">{% trans "Contact Us via Whatsapp" %}</a>
     </section>
 
 
-    <h1 id="form-title">Or send us a Message</h1>
+    <h1 id="form-title">{% trans "Or send us a Message" %}</h1>
     <h2 id="form-response" class="{% if form_submitted %}visible{% endif %}">
         {% if form_submitted %}
-            🎉 Your message was sent successfully!
+            {% blocktrans %}🎉 Your message was sent successfully!{% endblocktrans %}
         {% endif %}
     </h2>
 
     <div class="contact-forms">
-        {% if form.errors %}
-          <div class="alert alert-danger">
-            <strong>Form validation failed:</strong>
-            <ul>
-              {% for field in form %}
-                {% for err in field.errors %}
-                  <li>{{ field.label }}: {{ err }}</li>
-                {% endfor %}
-              {% endfor %}
-              {% for err in form.non_field_errors %}
-                <li>{{ err }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endif %}
+        
       
         {% if submission_error %}
             <div class="error-summary">
-              ❌ There was a problem sending your message:<br>
+              {% blocktrans %}❌ There was a problem sending your message:{% endblocktrans %}<br>
               <code>{{ error_message }}</code>
             </div>
         {% endif %}
@@ -175,18 +160,18 @@
             {% endfor %}
 
 
-            <input type="submit" value="Send Message" class="submit-button" id="submit-button" />
+            <input type="submit" value="{% trans 'Send Message' %}" class="submit-button" id="submit-button" />
 
         </form>
 
 
         <div class="phone-map">
             <div class="phone">
-                <h2>Give us a Call</h2><br>
+                <h2>{% trans "Give us a Call" %}</h2><br>
 
                 <h4>Alejandro Miller</h4>
                 <a href="tel:+34 623 33 64 60" rel="noopener noreferrer">+34 623 336 460</a><br><br>
-                <h4>Address</h4><a href="https://goo.gl/maps/A2oNHTDziP3aogXW8" target="_blank"
+                <h4>{% trans "Address" %}</h4><a href="https://goo.gl/maps/A2oNHTDziP3aogXW8" target="_blank"
                     rel="noopener noreferrer">Gran Alacant, Alicante, Spain</a>
             </div>
 
@@ -254,4 +239,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-{% endblock %}  
+{% endblock %}
