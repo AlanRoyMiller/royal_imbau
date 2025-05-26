@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "core",
     "core_es",
-    "core_de",
     "phonenumber_field",
     "bootstrap5",
     "rest_framework",
