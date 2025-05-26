@@ -1,35 +1,22 @@
 <!DOCTYPE html>
-{% load static %}
-<html lang="en">
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta name="description"
-        content="Royal Imbau Specializes in transformative home and commercial renovations, our construction team merges innovative designs with expert craftsmanship to bring your vision to life. Revitalize your space with us today!">
-    <title>Royal Imbau</title>
+          content="{% trans "Royal Imbau specializes in transformative home and commercial renovations, merging innovative designs with expert craftsmanship to bring your vision to life. Revitalize your space with us today!" %}">
+    <title>{% trans "Royal Imbau" %}</title>
     <link rel="preload" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-
     <link rel="icon" href="{% static 'img/favicon.ico' %}" id="favicon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
 </head>
 
-
 <body>
-
     {% include 'core/navbar.html' %}
-
     {% block content %}
-    <!-- content -->
+    <!-- translated content goes here -->
     {% endblock %}
-
     {% include 'core/footer.html' %}
-
 </body>
-
-
-
-
-
-
 </html>

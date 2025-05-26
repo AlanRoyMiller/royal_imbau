@@ -1,131 +1,128 @@
 {% extends 'core/base.html' %}
-{% load static %}
+{% load static i18n %}
 
 {% block content %}
 
-
 <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
 
-<h1 id="title">Some of our work</h1>
+<h1 id="title">{% trans "Some of our work" %}</h1>
 
 <div class="grid">
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/38.webp' %}" alt="Description of Image 38">
+    <img loading="lazy" src="{% static 'img/large/38.webp' %}" alt="{% trans 'Description of Image 38' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/39.webp' %}" alt="Description of Image 39">
+    <img loading="lazy" src="{% static 'img/large/39.webp' %}" alt="{% trans 'Description of Image 39' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/26.webp' %}" alt="Description of Image 26">
+    <img loading="lazy" src="{% static 'img/large/26.webp' %}" alt="{% trans 'Description of Image 26' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/27.webp' %}" alt="Description of Image 27">
+    <img loading="lazy" src="{% static 'img/large/27.webp' %}" alt="{% trans 'Description of Image 27' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/1.webp' %}" alt="Kitchen Renovation">
+    <img loading="lazy" src="{% static 'img/large/1.webp' %}" alt="{% trans 'Kitchen Renovation' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/2.webp' %}" alt="Kitchen Renovation">
+    <img loading="lazy" src="{% static 'img/large/2.webp' %}" alt="{% trans 'Kitchen Renovation' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/3.webp' %}" alt="Kitchen Renovation">
+    <img loading="lazy" src="{% static 'img/large/3.webp' %}" alt="{% trans 'Kitchen Renovation' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/6.webp' %}" alt="Description of Image 6">
+    <img loading="lazy" src="{% static 'img/large/6.webp' %}" alt="{% trans 'Description of Image 6' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/7.webp' %}" alt="Description of Image 7">
+    <img loading="lazy" src="{% static 'img/large/7.webp' %}" alt="{% trans 'Description of Image 7' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/8.webp' %}" alt="Description of Image 8">
+    <img loading="lazy" src="{% static 'img/large/8.webp' %}" alt="{% trans 'Description of Image 8' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/9.webp' %}" alt="Description of Image 9">
+    <img loading="lazy" src="{% static 'img/large/9.webp' %}" alt="{% trans 'Description of Image 9' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/10.webp' %}" alt="Description of Image 10">
+    <img loading="lazy" src="{% static 'img/large/10.webp' %}" alt="{% trans 'Description of Image 10' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/11.webp' %}" alt="Description of Image 11">
+    <img loading="lazy" src="{% static 'img/large/11.webp' %}" alt="{% trans 'Description of Image 11' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/12.webp' %}" alt="Description of Image 12">
+    <img loading="lazy" src="{% static 'img/large/12.webp' %}" alt="{% trans 'Description of Image 12' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/13.webp' %}" alt="Description of Image 13">
+    <img loading="lazy" src="{% static 'img/large/13.webp' %}" alt="{% trans 'Description of Image 13' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/14.webp' %}" alt="Description of Image 14">
+    <img loading="lazy" src="{% static 'img/large/14.webp' %}" alt="{% trans 'Description of Image 14' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/15.webp' %}" alt="Description of Image 15">
+    <img loading="lazy" src="{% static 'img/large/15.webp' %}" alt="{% trans 'Description of Image 15' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/16.webp' %}" alt="Description of Image 16">
+    <img loading="lazy" src="{% static 'img/large/16.webp' %}" alt="{% trans 'Description of Image 16' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/17.webp' %}" alt="Description of Image 17">
+    <img loading="lazy" src="{% static 'img/large/17.webp' %}" alt="{% trans 'Description of Image 17' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/18.webp' %}" alt="Description of Image 18">
+    <img loading="lazy" src="{% static 'img/large/18.webp' %}" alt="{% trans 'Description of Image 18' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/19.webp' %}" alt="Description of Image 19">
+    <img loading="lazy" src="{% static 'img/large/19.webp' %}" alt="{% trans 'Description of Image 19' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/20.webp' %}" alt="Description of Image 20">
+    <img loading="lazy" src="{% static 'img/large/20.webp' %}" alt="{% trans 'Description of Image 20' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/21.webp' %}" alt="Description of Image 21">
+    <img loading="lazy" src="{% static 'img/large/21.webp' %}" alt="{% trans 'Description of Image 21' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/22.webp' %}" alt="Description of Image 22">
+    <img loading="lazy" src="{% static 'img/large/22.webp' %}" alt="{% trans 'Description of Image 22' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/23.webp' %}" alt="Description of Image 23">
+    <img loading="lazy" src="{% static 'img/large/23.webp' %}" alt="{% trans 'Description of Image 23' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/24.webp' %}" alt="Description of Image 24">
+    <img loading="lazy" src="{% static 'img/large/24.webp' %}" alt="{% trans 'Description of Image 24' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/25.webp' %}" alt="Description of Image 25">
+    <img loading="lazy" src="{% static 'img/large/25.webp' %}" alt="{% trans 'Description of Image 25' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/31.webp' %}" alt="Hotel">
+    <img loading="lazy" src="{% static 'img/large/31.webp' %}" alt="{% trans 'Hotel' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/32.webp' %}" alt="Hotel">
+    <img loading="lazy" src="{% static 'img/large/32.webp' %}" alt="{% trans 'Hotel' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/33.webp' %}" alt="Hotel">
+    <img loading="lazy" src="{% static 'img/large/33.webp' %}" alt="{% trans 'Hotel' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/34.webp' %}" alt="Hotel">
+    <img loading="lazy" src="{% static 'img/large/34.webp' %}" alt="{% trans 'Hotel' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/35.webp' %}" alt="Hotel">
+    <img loading="lazy" src="{% static 'img/large/35.webp' %}" alt="{% trans 'Hotel' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/36.webp' %}" alt="Hotel">
+    <img loading="lazy" src="{% static 'img/large/36.webp' %}" alt="{% trans 'Hotel' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/37.webp' %}" alt="Description of Image 37">
+    <img loading="lazy" src="{% static 'img/large/37.webp' %}" alt="{% trans 'Description of Image 37' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/29.webp' %}" alt="Description of Image 29">
+    <img loading="lazy" src="{% static 'img/large/29.webp' %}" alt="{% trans 'Description of Image 29' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/large/30.webp' %}" alt="Description of Image 30">
+    <img loading="lazy" src="{% static 'img/large/30.webp' %}" alt="{% trans 'Description of Image 30' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/quincho0.webp' %}" alt="Description of Image 30">
+    <img loading="lazy" src="{% static 'img/quincho0.webp' %}" alt="{% trans 'Description of Image 0' %}">
   </div>
   <div class="grid-item">
-    <img loading="lazy" src="{% static 'img/quincho1.webp' %}" alt="Description of Image 30">
+    <img loading="lazy" src="{% static 'img/quincho1.webp' %}" alt="{% trans 'Description of Image 1' %}">
   </div>
 </div>
-
-
 
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
@@ -134,7 +131,6 @@
         var grid = document.querySelector('.grid');
 
         imagesLoaded(grid, function() {
-            // Initialize Masonry after all images have loaded
             new Masonry(grid, {
                 itemSelector: '.grid-item',
                 columnWidth: 300,

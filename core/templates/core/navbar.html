@@ -1,28 +1,43 @@
-{% load static %}
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
 <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
 
-
 <nav class="navbar">
-  <a href="{% url 'home' %}"><img srcset="{% static 'img/company-logo EN.webp' %}" class="logo" alt="company-logo"></a>
+  <a href="{% url 'home' %}">
+    <img
+      srcset="{% static 'img/company-logo EN.webp' %}"
+      class="logo"
+      alt="{% trans 'Company logo' %}"
+    >
+  </a>
   
   <div class="nav-links">
     <ul>
-      <li class="active"><a href="{% url 'home' %}">Home</a></li>
-      <li><a href="{% url 'about' %}">About Us</a></li>
-      <li><a href="{% url 'gallery' %}">Gallery</a></li>
-      <li><a href="{% url 'contact' %}">Contact</a></li>
+      <li class="active"><a href="{% url 'home' %}">{% trans 'Home' %}</a></li>
+      <li><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
+      <li><a href="{% url 'gallery' %}">{% trans 'Gallery' %}</a></li>
     </ul>
   </div>
 
-  <select name="languages" id="languages">
-    <option value="english">English</option>
-    <option value="spanish">Español</option>
-    <option value="german">Deutsch</option>
-  </select>
+  <form action="{% url 'set_language' %}" method="post" class="language-form">
+    {% csrf_token %}
+    {% get_available_languages as LANGUAGES %}
+    <select name="language" onchange="this.form.submit()" aria-label="{% trans 'Select language' %}">
+      {% for code, name in LANGUAGES %}
+        <option value="{{ code }}"{% if code == LANGUAGE_CODE %} selected{% endif %}>
+          {{ name }}
+        </option>
+      {% endfor %}
+    </select>
+    <input type="hidden" name="next" value="{{ request.get_full_path }}">
+  </form>
 
-  <img src="{% static 'img/menu-btn.webp' %}" alt="mobile-menu" class="menu-hamburger">
+  <img
+    src="{% static 'img/menu-btn.webp' %}"
+    alt="{% trans 'Mobile menu button' %}"
+    class="menu-hamburger"
+  >
 
   <script src="{% static 'js/hamburger-menu.js' %}"></script>
-  
-  <script src="{% static 'js/language-changer.js' %}"></script>
 </nav>

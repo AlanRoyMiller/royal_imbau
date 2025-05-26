@@ -1,50 +1,83 @@
 {% extends 'core/base.html' %}
-{% load static %}
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 
 {% block content %}
 
 <link rel="stylesheet" href="{% static 'css/about_us.css' %}">
 
-
 <div class="image-text-container">
 
     <div class="content-row">
         <div class="content-text">
-            <h2 class="section-title">Modern Remodeling and Tiling Specialists</h2>
+            <h2 class="section-title">{% trans "Modern Remodeling and Tiling Specialists" %}</h2>
             <div class="blue-line"></div>
-            <p> Specializing in contemporary tiling and remodeling, we aim to rejuvenate spaces, ranging from bathrooms
-                to kitchens and entire homes. Our goal is to make your space not just visually stunning but also a
-                testament to your elegance and style.</p>
+            <p>
+                {% blocktrans %}
+                Specializing in contemporary tiling and remodeling, we aim to rejuvenate spaces, 
+                ranging from bathrooms to kitchens and entire homes. Our goal is to make your space 
+                not just visually stunning but also a testament to your elegance and style.
+                {% endblocktrans %}
+            </p>
         </div>
-        <img loading="lazy" class="content-image" src="{% static 'img/quincho0.webp' %}" alt="Description of Image" />
-    </div>
-    <div class="content-row">
-        <div class="content-text">
-            <h2 class="section-title">Transforming Visions into Reality</h2>
-            <div class="blue-line"></div>
-            <p> We specialize in offering contemporary and luxurious touches for those with an eye for the
-                extraordinary. Transforming your vision into your dream home is our commitment, and your pleasure
-                inspires us daily.</p>
-        </div>
-        <img loading="lazy" class="content-image" src="{% static 'img/quincho1.webp' %}" alt="Description of Image" />
+        <img 
+            loading="lazy" 
+            class="content-image" 
+            src="{% static 'img/quincho0.webp' %}" 
+            alt="{% trans 'Contemporary tiled patio area' %}" 
+        />
     </div>
 
     <div class="content-row">
         <div class="content-text">
-            <h2 class="section-title">Embrace Your Home Journey with Us</h2>
+            <h2 class="section-title">{% trans "Transforming Visions into Reality" %}</h2>
             <div class="blue-line"></div>
-            <p>Let us join you on your journey to create something truly spectacular. Choose Royal Imbau, where your
-                dream home awaits.</p>
+            <p>
+                {% blocktrans %}
+                We specialize in offering contemporary and luxurious touches for those with an eye for the 
+                extraordinary. Transforming your vision into your dream home is our commitment, and your pleasure 
+                inspires us daily.
+                {% endblocktrans %}
+            </p>
         </div>
-        <img loading="lazy" class="content-image" src="{% static 'img/landscape.webp' %}" alt="Description of Image" />
+        <img 
+            loading="lazy" 
+            class="content-image" 
+            src="{% static 'img/quincho1.webp' %}" 
+            alt="{% trans 'Luxurious kitchen remodel' %}" 
+        />
+    </div>
+
+    <div class="content-row">
+        <div class="content-text">
+            <h2 class="section-title">{% trans "Embrace Your Home Journey with Us" %}</h2>
+            <div class="blue-line"></div>
+            <p>
+                {% blocktrans %}
+                Let us join you on your journey to create something truly spectacular. Choose Royal Imbau, 
+                where your dream home awaits.
+                {% endblocktrans %}
+            </p>
+        </div>
+        <img 
+            loading="lazy" 
+            class="content-image" 
+            src="{% static 'img/landscape.webp' %}" 
+            alt="{% trans 'Elegant outdoor living space' %}" 
+        />
     </div>
 
 </div>
 
 <div id="contact-btn">
-    <a href="https://wa.me/+34623336460" aria-label="contact us via whatsapp" target="_blank" class="btn">Contact Us via
-        Whatsapp</a>
+    <a 
+        href="https://wa.me/+34623336460" 
+        aria-label="{% trans 'contact us via whatsapp' %}" 
+        target="_blank" 
+        class="btn"
+    >
+        {% trans "Contact Us via Whatsapp" %}
+    </a>
 </div>
-
 
 {% endblock content %}

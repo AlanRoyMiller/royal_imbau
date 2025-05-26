@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-26 18:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\core\templates\core\about.html:13
+msgid "Modern Remodeling and Tiling Specialists"
+msgstr "Especialistas en reformas modernas y alicatados"
+
+#: .\core\templates\core\about.html:16
+msgid ""
+"\n"
+"                Specializing in contemporary tiling and remodeling, we aim "
+"to rejuvenate spaces, \n"
+"                ranging from bathrooms to kitchens and entire homes. Our "
+"goal is to make your space \n"
+"                not just visually stunning but also a testament to your "
+"elegance and style.\n"
+"                "
+msgstr ""
+"\n"
+"                Especializados en alicatados y reformas contemporáneas, "
+"buscamos renovar espacios, \n"
+"                desde baños y cocinas hasta viviendas completas. Nuestro "
+"objetivo es lograr que tu espacio \n"
+"                no solo sea visualmente impactante, sino también un reflejo "
+"de tu elegancia y estilo.\n"
+"                "
+
+#: .\core\templates\core\about.html:27
+msgid "Contemporary tiled patio area"
+msgstr "Patio contemporáneo alicatado"
+
+#: .\core\templates\core\about.html:33
+msgid "Transforming Visions into Reality"
+msgstr "Transformando visiones en realidad"
+
+#: .\core\templates\core\about.html:36
+msgid ""
+"\n"
+"                We specialize in offering contemporary and luxurious touches "
+"for those with an eye for the \n"
+"                extraordinary. Transforming your vision into your dream home "
+"is our commitment, and your pleasure \n"
+"                inspires us daily.\n"
+"                "
+msgstr ""
+"\n"
+"                Nos especializamos en ofrecer detalles contemporáneos y "
+"lujosos para quienes buscan lo extraordinario. \n"
+"                Convertir tu visión en la casa de tus sueños es nuestro "
+"compromiso, y tu satisfacción nos inspira cada día.\n"
+"                "
+
+#: .\core\templates\core\about.html:47
+msgid "Luxurious kitchen remodel"
+msgstr "Reforma de cocina lujosa"
+
+#: .\core\templates\core\about.html:53
+msgid "Embrace Your Home Journey with Us"
+msgstr "Vive tu experiencia de hogar con nosotros"
+
+#: .\core\templates\core\about.html:56
+msgid ""
+"\n"
+"                Let us join you on your journey to create something truly "
+"spectacular. Choose Royal Imbau, \n"
+"                where your dream home awaits.\n"
+"                "
+msgstr ""
+"\n"
+"                Permítenos acompañarte en tu camino para crear algo realmente "
+"espectacular. Elige Royal Imbau, \n"
+"                donde te espera la casa de tus sueños.\n"
+"                "
+
+#: .\core\templates\core\about.html:66
+msgid "Elegant outdoor living space"
+msgstr "Espacio exterior elegante"
+
+#: .\core\templates\core\about.html:75
+msgid "contact us via whatsapp"
+msgstr "contáctanos por WhatsApp"
+
+#: .\core\templates\core\about.html:79
+msgid "Contact Us via Whatsapp"
+msgstr "Contáctanos por WhatsApp"
+
+#: .\core\templates\core\base.html:7
+msgid ""
+"Royal Imbau specializes in transformative home and commercial renovations, "
+"merging innovative designs with expert craftsmanship to bring your vision to "
+"life. Revitalize your space with us today!"
+msgstr ""
+"Royal Imbau se especializa en reformas transformadoras de viviendas y comercios, "
+"combinando diseños innovadores con una ejecución experta para hacer realidad tu visión. "
+"¡Revitaliza tu espacio con nosotros hoy!"
+
+#: .\core\templates\core\base.html:8
+msgid "Royal Imbau"
+msgstr "Royal Imbau"
+
+#: .\core\templates\core\footer.html:23
+msgid "Royal Imbau logo"
+msgstr "Logo de Royal Imbau"
+
+#: .\core\templates\core\footer.html:30 .\core\templates\core\navbar.html:17
+msgid "Home"
+msgstr "Inicio"
+
+#: .\core\templates\core\footer.html:31
+msgid "About"
+msgstr "Acerca de"
+
+#: .\core\templates\core\footer.html:32 .\core\templates\core\navbar.html:19
+msgid "Gallery"
+msgstr "Galería"
+
+#: .\core\templates\core\footer.html:33
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\core\templates\core\footer.html:43
+msgid "Visit our Instagram page"
+msgstr "Visita nuestra página de Instagram"
+
+#: .\core\templates\core\footer.html:49
+msgid "Visit our Facebook page"
+msgstr "Visita nuestra página de Facebook"
+
+#: .\core\templates\core\footer.html:55
+msgid "Contact us via WhatsApp"
+msgstr "Contáctanos por WhatsApp"
+
+#: .\core\templates\core\gallery.html:8
+msgid "Some of our work"
+msgstr "Algunos de nuestros trabajos"
+
+#: .\core\templates\core\gallery.html:12
+msgid "Description of Image 38"
+msgstr "Descripción de la imagen 38"
+
+#: .\core\templates\core\gallery.html:15
+msgid "Description of Image 39"
+msgstr "Descripción de la imagen 39"
+
+#: .\core\templates\core\gallery.html:18
+msgid "Description of Image 26"
+msgstr "Descripción de la imagen 26"
+
+#: .\core\templates\core\gallery.html:21
+msgid "Description of Image 27"
+msgstr "Descripción de la imagen 27"
+
+#: .\core\templates\core\gallery.html:24 .\core\templates\core\gallery.html:27
+#: .\core\templates\core\gallery.html:30
+msgid "Kitchen Renovation"
+msgstr "Reforma de cocina"
+
+#: .\core\templates\core\gallery.html:33
+msgid "Description of Image 6"
+msgstr "Descripción de la imagen 6"
+
+#: .\core\templates\core\gallery.html:36
+msgid "Description of Image 7"
+msgstr "Descripción de la imagen 7"
+
+#: .\core\templates\core\gallery.html:39
+msgid "Description of Image 8"
+msgstr "Descripción de la imagen 8"
+
+#: .\core\templates\core\gallery.html:42
+msgid "Description of Image 9"
+msgstr "Descripción de la imagen 9"
+
+#: .\core\templates\core\gallery.html:45
+msgid "Description of Image 10"
+msgstr "Descripción de la imagen 10"
+
+#: .\core\templates\core\gallery.html:48
+msgid "Description of Image 11"
+msgstr "Descripción de la imagen 11"
+
+#: .\core\templates\core\gallery.html:51
+msgid "Description of Image 12"
+msgstr "Descripción de la imagen 12"
+
+#: .\core\templates\core\gallery.html:54
+msgid "Description of Image 13"
+msgstr "Descripción de la imagen 13"
+
+#: .\core\templates\core\gallery.html:57
+msgid "Description of Image 14"
+msgstr "Descripción de la imagen 14"
+
+#: .\core\templates\core\gallery.html:60
+msgid "Description of Image 15"
+msgstr "Descripción de la imagen 15"
+
+#: .\core\templates\core\gallery.html:63
+msgid "Description of Image 16"
+msgstr "Descripción de la imagen 16"
+
+#: .\core\templates\core\gallery.html:66
+msgid "Description of Image 17"
+msgstr "Descripción de la imagen 17"
+
+#: .\core\templates\core\gallery.html:69
+msgid "Description of Image 18"
+msgstr "Descripción de la imagen 18"
+
+#: .\core\templates\core\gallery.html:72
+msgid "Description of Image 19"
+msgstr "Descripción de la imagen 19"
+
+#: .\core\templates\core\gallery.html:75
+msgid "Description of Image 20"
+msgstr "Descripción de la imagen 20"
+
+#: .\core\templates\core\gallery.html:78
+msgid "Description of Image 21"
+msgstr "Descripción de la imagen 21"
+
+#: .\core\templates\core\gallery.html:81
+msgid "Description of Image 22"
+msgstr "Descripción de la imagen 22"
+
+#: .\core\templates\core\gallery.html:84
+msgid "Description of Image 23"
+msgstr "Descripción de la imagen 23"
+
+#: .\core\templates\core\gallery.html:87
+msgid "Description of Image 24"
+msgstr "Descripción de la imagen 24"
+
+#: .\core\templates\core\gallery.html:90
+msgid "Description of Image 25"
+msgstr "Descripción de la imagen 25"
+
+#: .\core\templates\core\gallery.html:93 .\core\templates\core\gallery.html:96
+#: .\core\templates\core\gallery.html:99 .\core\templates\core\gallery.html:102
+#: .\core\templates\core\gallery.html:105
+#: .\core\templates\core\gallery.html:108
+msgid "Hotel"
+msgstr "Hotel"
+
+#: .\core\templates\core\gallery.html:111
+msgid "Description of Image 37"
+msgstr "Descripción de la imagen 37"
+
+#: .\core\templates\core\gallery.html:114
+msgid "Description of Image 29"
+msgstr "Descripción de la imagen 29"
+
+#: .\core\templates\core\gallery.html:117
+msgid "Description of Image 30"
+msgstr "Descripción de la imagen 30"
+
+#: .\core\templates\core\gallery.html:120
+msgid "Description of Image 0"
+msgstr "Descripción de la imagen 0"
+
+#: .\core\templates\core\gallery.html:123
+msgid "Description of Image 1"
+msgstr "Descripción de la imagen 1"
+
+#: .\core\templates\core\navbar.html:11
+msgid "Company logo"
+msgstr "Logo de la empresa"
+
+#: .\core\templates\core\navbar.html:18
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: .\core\templates\core\navbar.html:23
+msgid "Select language"
+msgstr "Seleccionar idioma"
+
+#: .\core\templates\core\navbar.html:25
+msgid "English"
+msgstr "Inglés"
+
+#: .\core\templates\core\navbar.html:28
+msgid "Spanish"
+msgstr "Español"
+
+#: .\core\templates\core\navbar.html:31
+msgid "German"
+msgstr "Alemán"
+
+#: .\core\templates\core\navbar.html:37
+msgid "Mobile menu button"
+msgstr "Botón del menú móvil"
