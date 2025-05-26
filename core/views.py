@@ -45,17 +45,17 @@ def contact(request):
                 logger.info("Email sent successfully")
             except Exception as e:
                 logger.error(f"Error during form submission: {e}")
-                return render(request, 'core/contact.html', {'form': form, 'submission_error': True})
+                return render(request, 'core/home.html', {'form': form, 'submission_error': True})
 
-            return redirect('/contact/?submitted=True')
+            return redirect('/home/?submitted=True')
         else:
             logger.error(f"Form errors: {form.errors}")  # Log form errors if the form is not valid
-            return render(request, 'core/contact.html', {'form': form})
+            return render(request, 'core/home.html', {'form': form})
     else:
         form = ContactMessageForm()
 
     form_submitted = 'submitted' in request.GET
-    return render(request, 'core/contact.html', {'form': form})
+    return render(request, 'core/home.html', {'form': form})
 
 
 
