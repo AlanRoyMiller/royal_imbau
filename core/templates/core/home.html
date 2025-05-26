@@ -138,14 +138,11 @@
 
 
     <h1 id="form-title">Or send us a Message</h1>
-    <h2 id="form-response">
+    <h2 id="form-response" class="{% if form_submitted %}visible{% endif %}">
         {% if form_submitted %}
             🎉 Your message was sent successfully!
         {% endif %}
-        {% if submission_error %}
-            ❌ There was an error sending your message. Please try again later.
-        {% endif %}
-</h2>
+    </h2>
 
     <div class="contact-forms">
         {% if form.errors %}
@@ -250,5 +247,16 @@
     window.onload = typeWriter;
 </script>
 
+<script>
+// Show the form response banner if the URL has 'submitted=True'
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('submitted') === 'True') {
+    const banner = document.getElementById('form-response');
+    banner.classList.add('visible');       // show it
+    banner.scrollIntoView({ behavior: 'smooth' });
+  }
+});
+</script>
 
-{% endblock %}
+{% endblock %}  

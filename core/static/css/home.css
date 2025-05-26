@@ -419,6 +419,8 @@ input.box {
     padding-top: 1%;
 }
 
+#form-response.visible { display: block; }
+
 @keyframes breathingEffect {
     0% {
         box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.3);
