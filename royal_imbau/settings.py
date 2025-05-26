@@ -139,12 +139,14 @@ USE_L10N = True
 USE_TZ = True
 
 # Default language for your site:
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 # The languages you want to support:
 LANGUAGES = [
+    ('en', 'English'),
     ('es', 'Spanish'),
     ('de', 'German'),
+     
     # add more as needed…
 ]
 
