@@ -134,7 +134,12 @@
     </section>
 
     
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
 
+    <div class="background-container"></div>
+
+    <h1 id="form-title">Send us a Message</h1>
+    <h2 id="form-response"></h2>
 
     <div class="contact-forms">
 
@@ -172,6 +177,8 @@
             </div>
         </div>
     </div>
+
+    <script src="{% static 'js/contact.js' %}"></script>
 
 </div>
 
@@ -216,6 +223,5 @@
     window.onload = typeWriter;
 </script>
 
-<script src="{% static 'js/contact.js' %}"></script>
 
 {% endblock %}
