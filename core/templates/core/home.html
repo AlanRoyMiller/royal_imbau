@@ -148,8 +148,28 @@
 </h2>
 
     <div class="contact-forms">
-
-        <form class="email-form" id="contact-form" method="post" action="">
+        {% if form.errors %}
+          <div class="alert alert-danger">
+            <strong>Form validation failed:</strong>
+            <ul>
+              {% for field in form %}
+                {% for err in field.errors %}
+                  <li>{{ field.label }}: {{ err }}</li>
+                {% endfor %}
+              {% endfor %}
+              {% for err in form.non_field_errors %}
+                <li>{{ err }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      
+        {% if submission_error %}
+          <div class="alert alert-warning">
+            There was an error processing your request. Our team has been notified.
+          </div>
+        {% endif %}
+        <form class="email-form" id="contact-form" method="post" action="{% url 'home' %}">
             {% csrf_token %}
 
             {% for field in form %}
