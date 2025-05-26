@@ -51,16 +51,14 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",  # <-- must be after SessionMiddleware
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
-    'django.middleware.locale.LocaleMiddleware',
 ]
-
-
 
 
 ROOT_URLCONF = "royal_imbau.urls"
@@ -76,16 +74,16 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
-                'django.template.context_processors.i18n',
+                "django.template.context_processors.i18n",
             ],
         },
     },
 ]
 
 WSGI_APPLICATION = "royal_imbau.wsgi.application"
-
-
 # Database
+# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+# Databaseple import config
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 from decouple import config
 
@@ -100,8 +98,8 @@ DATABASES = {
     }
 }
 
-
-
+# Password validation
+# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -120,54 +118,38 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
-
-
-
-
-
-LANGUAGE_CODE = "en-us"
-
-TIME_ZONE = "UTC"
-
-USE_I18N = True
-USE_L10N = True
-USE_TZ = True
-
-# Default language for your site:
 LANGUAGE_CODE = 'en'
 
-# The languages you want to support:
 LANGUAGES = [
     ('en', 'English'),
     ('es', 'Spanish'),
     ('de', 'German'),
-     
-    # add more as needed…
 ]
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
-
-STATIC_URL = "/static/"
-STATIC_ROOT = BASE_DIR/"production_static"
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+TIME_ZONE = "UTC"
+USE_I18N = True
+USE_L10N = True
+USE_TZ = True
 
 LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
-# settings.py
 
+# Static files (CSS, JavaScript, Images) Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.2/howto/static-files/# https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "production_static"
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND')
 EMAIL_HOST = os.environ.get('EMAIL_HOST')

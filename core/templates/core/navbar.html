@@ -28,7 +28,7 @@
       <option value="es"{% if LANGUAGE_CODE == 'es' %} selected{% endif %}>{% trans "Spanish" %}</option>
       <option value="de"{% if LANGUAGE_CODE == 'de' %} selected{% endif %}>{% trans "German" %}</option>
     </select>
-    <input type="hidden" name="next" value="{{ request.path }}">
+    <input type="hidden" name="next" value="{{ request.get_full_path }}">
   </form>
 
   <img
