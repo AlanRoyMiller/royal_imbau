@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "core",
-    "core_es",
     "phonenumber_field",
     "bootstrap5",
     "rest_framework",
