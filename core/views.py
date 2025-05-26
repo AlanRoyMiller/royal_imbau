@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from .forms import ContactMessageForm
 from django.core.mail import EmailMessage
+from django.urls import reverse
+
 
 import logging
 
@@ -39,6 +41,9 @@ def home(request):
                 email.send()
 
                 logger.info("Email sent successfully")
+
+                return redirect(f"{reverse('home')}?submitted=True")
+
             except Exception as e:
                 logger.error(f"Error during form submission: {e}")
                 return render(request, 'core/home.html', {'form': form, 'submission_error': True})
