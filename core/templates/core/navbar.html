@@ -22,13 +22,11 @@
 
   <form action="{% url 'set_language' %}" method="post" class="language-form">
     {% csrf_token %}
-    {% get_available_languages as LANGUAGES %}
+    {% get_current_language as LANGUAGE_CODE %}
     <select name="language" onchange="this.form.submit()" aria-label="{% trans 'Select language' %}">
-      {% for code, name in LANGUAGES %}
-        <option value="{{ code }}"{% if code == LANGUAGE_CODE %} selected{% endif %}>
-          {{ name }}
-        </option>
-      {% endfor %}
+      <option value="en"{% if LANGUAGE_CODE == 'en' %} selected{% endif %}>{% trans "English" %}</option>
+      <option value="es"{% if LANGUAGE_CODE == 'es' %} selected{% endif %}>{% trans "Spanish" %}</option>
+      <option value="de"{% if LANGUAGE_CODE == 'de' %} selected{% endif %}>{% trans "German" %}</option>
     </select>
     <input type="hidden" name="next" value="{{ request.get_full_path }}">
   </form>
