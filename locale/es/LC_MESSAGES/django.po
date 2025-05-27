@@ -20,23 +20,23 @@ msgstr ""
 
 #: .\core\forms.py:10 .\core\forms.py:18
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 #: .\core\forms.py:11 .\core\forms.py:19
 msgid "Last Name"
-msgstr ""
+msgstr "Apellido"
 
 #: .\core\forms.py:12 .\core\forms.py:20
 msgid "Email"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: .\core\forms.py:13 .\core\forms.py:21
 msgid "Phone"
-msgstr ""
+msgstr "Teléfono"
 
 #: .\core\forms.py:14 .\core\forms.py:22
 msgid "Subject"
-msgstr ""
+msgstr "Asunto"
 
 #: .\core\forms.py:15 .\core\forms.py:23
 #, fuzzy
