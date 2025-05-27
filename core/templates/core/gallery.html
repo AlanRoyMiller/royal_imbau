@@ -126,27 +126,8 @@
 
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script src="https://unpkg.com/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var grid = document.querySelector('.grid');
 
-        imagesLoaded(grid, function() {
-            new Masonry(grid, {
-                itemSelector: '.grid-item',
-                columnWidth: 300,
-                gutter: 10,
-                fitWidth: true
-            });
-        });
 
-        // Enable zoom on all images inside .grid
-        mediumZoom('.grid img', {
-            margin: 24,
-            background: '#000'
-        });
-    });
-</script>
 <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
 <script src="https://unpkg.com/photoswipe@5/dist/photoswipe.umd.min.js"></script>
 <script>
