@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 15:10+0200\n"
+"POT-Creation-Date: 2025-05-27 17:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -17,6 +17,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\core\forms.py:10 .\core\forms.py:18
+msgid "First Name"
+msgstr "Vorname"
+
+#: .\core\forms.py:11 .\core\forms.py:19
+msgid "Last Name"
+msgstr "Nachname"
+
+#: .\core\forms.py:12 .\core\forms.py:20
+msgid "Email"
+msgstr "E-Mail"
+
+#: .\core\forms.py:13 .\core\forms.py:21
+msgid "Phone"
+msgstr "Telefon"
+
+#: .\core\forms.py:14 .\core\forms.py:22
+msgid "Subject"
+msgstr "Betreff"
+
+#: .\core\forms.py:15 .\core\forms.py:23
+msgid "Message"
+msgstr "Nachricht"
 
 #: .\core\templates\core\about.html:13
 msgid "Modern Remodeling and Tiling Specialists"
@@ -104,10 +128,11 @@ msgid ""
 "and quality craftsmanship. Transform your space with innovative designs and "
 "professional tiling. Contact us for your next project!"
 msgstr ""
-"Royal Imbau ist ein Renovierungsunternehmen unter der Leitung eines modernen Fliesenspezialisten. "
-"Wir bieten fachkundige Renovierungen für Wohn- und Gewerberäume, zeitgemäße Modernisierungen "
-"und hochwertige Handwerkskunst. Verwandeln Sie Ihren Raum mit innovativen Designs und professionellen Fliesenarbeiten. "
-"Kontaktieren Sie uns für Ihr nächstes Projekt!"
+"Royal Imbau ist ein Renovierungsunternehmen unter der Leitung eines modernen "
+"Fliesenspezialisten. Wir bieten fachkundige Renovierungen für Wohn- und "
+"Gewerberäume, zeitgemäße Modernisierungen und hochwertige Handwerkskunst. "
+"Verwandeln Sie Ihren Raum mit innovativen Designs und professionellen "
+"Fliesenarbeiten. Kontaktieren Sie uns für Ihr nächstes Projekt!"
 
 #: .\core\templates\core\base.html:8
 msgid "Royal Imbau"
