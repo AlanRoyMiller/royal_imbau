@@ -21,15 +21,11 @@
     </ul>
   </div>
 
-  <form action="{% url 'set_language' %}" method="post" class="language-form">
-    {% csrf_token %}
-    <select name="language" onchange="this.form.submit()" aria-label="{% trans 'Select language' %}">
-      <option value="en"{% if LANGUAGE_CODE == 'en' %} selected{% endif %}>{% trans "English" %}</option>
-      <option value="es"{% if LANGUAGE_CODE == 'es' %} selected{% endif %}>{% trans "Spanish" %}</option>
-      <option value="de"{% if LANGUAGE_CODE == 'de' %} selected{% endif %}>{% trans "German" %}</option>
-    </select>
-    <input type="hidden" name="next" value="{{ request.get_full_path }}">
-  </form>
+  <select name="languages" id="languages">
+    <option value="english">English</option>
+    <option value="spanish">Español</option>
+    <option value="german">Deutsch</option>
+  </select>
 
   <img
     src="{% static 'img/menu-btn.webp' %}"
@@ -38,4 +34,5 @@
   >
 
   <script src="{% static 'js/hamburger-menu.js' %}"></script>
+  <script src="{% static 'js/language-changer.js' %}"></script>
 </nav>
