@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 21:19+0200\n"
+"POT-Creation-Date: 2025-05-27 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -402,26 +402,117 @@ msgstr "Llámanos"
 msgid "Address"
 msgstr "Dirección"
 
+#: .\core\templates\core\home.html:196
+msgid "Kitchen?"
+msgstr "¿Cocina?"
+
+#: .\core\templates\core\home.html:197
+msgid "Bathroom?"
+msgstr "¿Baño?"
+
+#: .\core\templates\core\home.html:198
+msgid "Bedroom?"
+msgstr "¿Dormitorio?"
+
+#: .\core\templates\core\home.html:199
+msgid "Living Room?"
+msgstr "¿Salón?"
+
+#: .\core\templates\core\home.html:200
+msgid "Dining Room?"
+msgstr "¿Comedor?"
+
+#: .\core\templates\core\home.html:201
+msgid "Home Office?"
+msgstr "Oficina?"
+
+#: .\core\templates\core\home.html:202
+msgid "Playroom?"
+msgstr "¿Sala de juegos?"
+
+#: .\core\templates\core\home.html:203
+msgid "Basement?"
+msgstr "¿Sótano?"
+
+#: .\core\templates\core\home.html:204
+msgid "Attic?"
+msgstr "¿Ático?"
+
+#: .\core\templates\core\home.html:205
+msgid "Home Theater?"
+msgstr "¿Cine en casa?"
+
+#: .\core\templates\core\home.html:206
+msgid "Gym?"
+msgstr "¿Gimnasio?"
+
+#: .\core\templates\core\home.html:207
+msgid "Pool?"
+msgstr "¿Piscina?"
+
+#: .\core\templates\core\home.html:208
+msgid "Patio?"
+msgstr "¿Patio?"
+
+#: .\core\templates\core\home.html:209
+msgid "Deck?"
+msgstr "¿Terraza?"
+
+#: .\core\templates\core\home.html:210
+msgid "Porch?"
+msgstr "¿Porche?"
+
+#: .\core\templates\core\home.html:211
+msgid "Backyard?"
+msgstr "¿Jardín trasero?"
+
+#: .\core\templates\core\home.html:212
+msgid "Garden?"
+msgstr "¿Jardín?"
+
+#: .\core\templates\core\home.html:213
+msgid "Garage?"
+msgstr "¿Garaje?"
+
+#: .\core\templates\core\home.html:214
+msgid "Pavement?"
+msgstr "¿Pavimento?"
+
+#: .\core\templates\core\home.html:215
+msgid "Staircase?"
+msgstr "¿Escalera?"
+
+#: .\core\templates\core\home.html:216
+msgid "Balcony?"
+msgstr "¿Balcón?"
+
+#: .\core\templates\core\home.html:217
+msgid "Roof?"
+msgstr "¿Tejado?"
+
 #: .\core\templates\core\navbar.html:11
 msgid "Company logo"
 msgstr "Logo de la empresa"
 
-#: .\core\templates\core\navbar.html:26
+#: .\core\templates\core\navbar.html:25
 msgid "Select language"
 msgstr "Seleccionar idioma"
 
-#: .\core\templates\core\navbar.html:38
+#: .\core\templates\core\navbar.html:26
+msgid "English"
+msgstr "Inglés"
+
+#: .\core\templates\core\navbar.html:27
+msgid "Spanish"
+msgstr "Español"
+
+#: .\core\templates\core\navbar.html:28
+msgid "German"
+msgstr "Alemán"
+
+#: .\core\templates\core\navbar.html:35
 msgid "Mobile menu button"
 msgstr "Botón del menú móvil"
 
 #~ msgid "Contact"
 #~ msgstr "Contacto"
-
-#~ msgid "English"
-#~ msgstr "Inglés"
-
-#~ msgid "Spanish"
-#~ msgstr "Español"
-
-#~ msgid "German"
-#~ msgstr "Alemán"
