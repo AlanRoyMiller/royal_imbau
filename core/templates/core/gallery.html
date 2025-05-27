@@ -147,4 +147,26 @@
         });
     });
 </script>
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+<script src="https://unpkg.com/photoswipe@5/dist/photoswipe.umd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var images = document.querySelectorAll('.grid img');
+    var items = [];
+    images.forEach(function(img, idx) {
+        items.push({
+            src: img.src,
+            w: img.naturalWidth || 1200,
+            h: img.naturalHeight || 900
+        });
+        img.addEventListener('click', function() {
+            var pswp = new PhotoSwipe({
+                dataSource: items,
+                index: idx
+            });
+            pswp.init();
+        });
+    });
+});
+</script>
 {% endblock content %}
