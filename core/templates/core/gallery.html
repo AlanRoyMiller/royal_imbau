@@ -126,28 +126,25 @@
 
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
-
-<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
-<script src="https://unpkg.com/photoswipe@5/dist/photoswipe.umd.min.js"></script>
+<script src="https://unpkg.com/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var images = document.querySelectorAll('.grid img');
-    var items = [];
-    images.forEach(function(img, idx) {
-        items.push({
-            src: img.src,
-            w: img.naturalWidth || 1200,
-            h: img.naturalHeight || 900
-        });
-        img.addEventListener('click', function() {
-            var pswp = new PhotoSwipe({
-                dataSource: items,
-                index: idx
+    document.addEventListener('DOMContentLoaded', function() {
+        var grid = document.querySelector('.grid');
+
+        imagesLoaded(grid, function() {
+            new Masonry(grid, {
+                itemSelector: '.grid-item',
+                columnWidth: 300,
+                gutter: 10,
+                fitWidth: true
             });
-            pswp.init();
+        });
+
+        // Enable zoom on all images inside .grid
+        mediumZoom('.grid img', {
+            margin: 24,
+            background: '#000'
         });
     });
-});
 </script>
 {% endblock content %}
