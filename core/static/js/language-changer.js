@@ -17,21 +17,21 @@ function getNewPath(currentPath, selectedLanguage) {
     const homepage = { "english": "/", "spanish": "/es/", "german": "/de/" };
     const about = { "english": "/about/", "spanish": "/es/sobre-nosotros/", "german": "/de/ueberuns/" };
     const gallery = { "english": "/gallery/", "spanish": "/es/galeria/", "german": "/de/galerie/" };
-    const contact = { "english": "/contact/", "spanish": "/es/contacto/", "german": "/de/kontakt/" };
+    const contact = { "english": "/#contact-us/", "spanish": "/es/#contact-us/", "german": "/de/#contact-us/" };
 
     const pathMappings = {
         "/": homepage,
         "/about/": about,
         "/gallery/": gallery,
-        "/contact/": contact,
+        "/#contact-us/": contact,
         "/es/": homepage,
         "/es/sobre-nosotros/": about,
         "/es/galeria/": gallery,
-        "/es/contacto/": contact,
+        "/es/#contact-us/": contact,
         "/de/": homepage,
         "/de/ueberuns/": about,
         "/de/galerie/": gallery,
-        "/de/kontakt/": contact
+        "/de/#contact-us/": contact
     };
 
     const mappings = pathMappings[currentPath];
