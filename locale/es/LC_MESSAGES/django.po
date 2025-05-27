@@ -39,10 +39,8 @@ msgid "Subject"
 msgstr "Asunto"
 
 #: .\core\forms.py:15 .\core\forms.py:23
-#, fuzzy
-#| msgid "Send Message"
-msgid "Mensaje"
-msgstr "Enviar mensaje"
+msgid "Message"
+msgstr "Mensaje"
 
 #: .\core\templates\core\about.html:13
 msgid "Modern Remodeling and Tiling Specialists"
