@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 13:01+0200\n"
+"POT-Creation-Date: 2025-05-27 15:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -89,24 +89,25 @@ msgstr ""
 msgid "Elegant outdoor living space"
 msgstr "Eleganter Außenwohnbereich"
 
-#: .\core\templates\core\about.html:75 .\core\templates\core\home.html:131
+#: .\core\templates\core\about.html:75 .\core\templates\core\home.html:126
 msgid "contact us via whatsapp"
 msgstr "Kontaktieren Sie uns über WhatsApp"
 
-#: .\core\templates\core\about.html:79 .\core\templates\core\home.html:132
+#: .\core\templates\core\about.html:79 .\core\templates\core\home.html:127
 msgid "Contact Us via Whatsapp"
 msgstr "Kontaktieren Sie uns über WhatsApp"
 
 #: .\core\templates\core\base.html:7
 msgid ""
-"Royal Imbau specializes in transformative home and commercial renovations, "
-"merging innovative designs with expert craftsmanship to bring your vision to "
-"life. Revitalize your space with us today!"
+"Royal Imbau is a renovation company led by a modern tiling specialist, "
+"offering expert home and commercial renovations, contemporary remodeling, "
+"and quality craftsmanship. Transform your space with innovative designs and "
+"professional tiling. Contact us for your next project!"
 msgstr ""
-"Royal Imbau ist spezialisiert auf transformative Renovierungen für Privat- "
-"und Gewerberäume. Wir verbinden innovative Designs mit fachmännischer "
-"Handwerkskunst, um Ihre Vorstellungen Wirklichkeit werden zu lassen. "
-"Verleihen Sie Ihrem Zuhause mit uns neuen Glanz!"
+"Royal Imbau ist ein Renovierungsunternehmen unter der Leitung eines modernen Fliesenspezialisten. "
+"Wir bieten fachkundige Renovierungen für Wohn- und Gewerberäume, zeitgemäße Modernisierungen "
+"und hochwertige Handwerkskunst. Verwandeln Sie Ihren Raum mit innovativen Designs und professionellen Fliesenarbeiten. "
+"Kontaktieren Sie uns für Ihr nächstes Projekt!"
 
 #: .\core\templates\core\base.html:8
 msgid "Royal Imbau"
@@ -371,119 +372,119 @@ msgstr "Unsere gesamte Galerie ansehen..."
 msgid "What Our Customers Say"
 msgstr "Was unsere Kunden sagen"
 
-#: .\core\templates\core\home.html:129
+#: .\core\templates\core\home.html:124
 msgid "Ready to transform your space?"
 msgstr "Bereit, Ihren Raum zu verwandeln?"
 
-#: .\core\templates\core\home.html:136
+#: .\core\templates\core\home.html:131
 msgid "Or send us a Message"
 msgstr "Oder senden Sie uns eine Nachricht"
 
-#: .\core\templates\core\home.html:139
+#: .\core\templates\core\home.html:134
 msgid "🎉 Your message was sent successfully!"
 msgstr "🎉 Ihre Nachricht wurde erfolgreich gesendet!"
 
-#: .\core\templates\core\home.html:148
+#: .\core\templates\core\home.html:143
 msgid "❌ There was a problem sending your message:"
 msgstr "❌ Beim Senden Ihrer Nachricht ist ein Problem aufgetreten:"
 
-#: .\core\templates\core\home.html:163
+#: .\core\templates\core\home.html:158
 msgid "Send Message"
 msgstr "Nachricht senden"
 
-#: .\core\templates\core\home.html:170
+#: .\core\templates\core\home.html:165
 msgid "Give us a Call"
 msgstr "Rufen Sie uns an"
 
-#: .\core\templates\core\home.html:174
+#: .\core\templates\core\home.html:169
 msgid "Address"
 msgstr "Adresse"
 
-#: .\core\templates\core\home.html:196
+#: .\core\templates\core\home.html:191
 msgid "Kitchen?"
 msgstr "Küche?"
 
-#: .\core\templates\core\home.html:197
+#: .\core\templates\core\home.html:192
 msgid "Bathroom?"
 msgstr "Badezimmer?"
 
-#: .\core\templates\core\home.html:198
+#: .\core\templates\core\home.html:193
 msgid "Bedroom?"
 msgstr "Schlafzimmer?"
 
-#: .\core\templates\core\home.html:199
+#: .\core\templates\core\home.html:194
 msgid "Living Room?"
 msgstr "Wohnzimmer?"
 
-#: .\core\templates\core\home.html:200
+#: .\core\templates\core\home.html:195
 msgid "Dining Room?"
 msgstr "Esszimmer?"
 
-#: .\core\templates\core\home.html:201
+#: .\core\templates\core\home.html:196
 msgid "Home Office?"
 msgstr "Arbeitszimmer?"
 
-#: .\core\templates\core\home.html:202
+#: .\core\templates\core\home.html:197
 msgid "Playroom?"
 msgstr "Spielzimmer?"
 
-#: .\core\templates\core\home.html:203
+#: .\core\templates\core\home.html:198
 msgid "Basement?"
 msgstr "Keller?"
 
-#: .\core\templates\core\home.html:204
+#: .\core\templates\core\home.html:199
 msgid "Attic?"
 msgstr "Dachboden?"
 
-#: .\core\templates\core\home.html:205
+#: .\core\templates\core\home.html:200
 msgid "Home Theater?"
 msgstr "Heimkino?"
 
-#: .\core\templates\core\home.html:206
+#: .\core\templates\core\home.html:201
 msgid "Gym?"
 msgstr "Fitnessraum?"
 
-#: .\core\templates\core\home.html:207
+#: .\core\templates\core\home.html:202
 msgid "Pool?"
 msgstr "Pool?"
 
-#: .\core\templates\core\home.html:208
+#: .\core\templates\core\home.html:203
 msgid "Patio?"
 msgstr "Terrasse?"
 
-#: .\core\templates\core\home.html:209
+#: .\core\templates\core\home.html:204
 msgid "Deck?"
 msgstr "Deck?"
 
-#: .\core\templates\core\home.html:210
+#: .\core\templates\core\home.html:205
 msgid "Porch?"
 msgstr "Veranda?"
 
-#: .\core\templates\core\home.html:211
+#: .\core\templates\core\home.html:206
 msgid "Backyard?"
 msgstr "Hinterhof?"
 
-#: .\core\templates\core\home.html:212
+#: .\core\templates\core\home.html:207
 msgid "Garden?"
 msgstr "Garten?"
 
-#: .\core\templates\core\home.html:213
+#: .\core\templates\core\home.html:208
 msgid "Garage?"
 msgstr "Garage?"
 
-#: .\core\templates\core\home.html:214
+#: .\core\templates\core\home.html:209
 msgid "Pavement?"
 msgstr "Gehweg?"
 
-#: .\core\templates\core\home.html:215
+#: .\core\templates\core\home.html:210
 msgid "Staircase?"
 msgstr "Treppe?"
 
-#: .\core\templates\core\home.html:216
+#: .\core\templates\core\home.html:211
 msgid "Balcony?"
 msgstr "Balkon?"
 
-#: .\core\templates\core\home.html:217
+#: .\core\templates\core\home.html:212
 msgid "Roof?"
 msgstr "Dach?"
 
@@ -495,22 +496,28 @@ msgstr "Firmenlogo"
 msgid "Contact"
 msgstr "Kontakt"
 
-#: .\core\templates\core\navbar.html:26
-msgid "Select language"
-msgstr "Sprache auswählen"
-
-#: .\core\templates\core\navbar.html:27
-msgid "English"
-msgstr "Englisch"
-
-#: .\core\templates\core\navbar.html:28
-msgid "Spanish"
-msgstr "Spanisch"
-
-#: .\core\templates\core\navbar.html:29
-msgid "German"
-msgstr "Deutsch"
-
-#: .\core\templates\core\navbar.html:36
+#: .\core\templates\core\navbar.html:32
 msgid "Mobile menu button"
 msgstr "Menüknopf für Mobilgeräte"
+
+#~ msgid ""
+#~ "Royal Imbau specializes in transformative home and commercial "
+#~ "renovations, merging innovative designs with expert craftsmanship to "
+#~ "bring your vision to life. Revitalize your space with us today!"
+#~ msgstr ""
+#~ "Royal Imbau ist spezialisiert auf transformative Renovierungen für "
+#~ "Privat- und Gewerberäume. Wir verbinden innovative Designs mit "
+#~ "fachmännischer Handwerkskunst, um Ihre Vorstellungen Wirklichkeit werden "
+#~ "zu lassen. Verleihen Sie Ihrem Zuhause mit uns neuen Glanz!"
+
+#~ msgid "Select language"
+#~ msgstr "Sprache auswählen"
+
+#~ msgid "English"
+#~ msgstr "Englisch"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanisch"
+
+#~ msgid "German"
+#~ msgstr "Deutsch"
