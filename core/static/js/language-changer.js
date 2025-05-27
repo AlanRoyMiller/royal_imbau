@@ -15,8 +15,8 @@ document.getElementById("languages").onchange = function() {
 // Function to get the new path for the selected language
 function getNewPath(currentPath, selectedLanguage) {
     const homepage = { "english": "/", "spanish": "/es/", "german": "/de/" };
-    const about = { "english": "/about/", "spanish": "/es/sobre-nosotros/", "german": "/de/ueberuns/" };
-    const gallery = { "english": "/gallery/", "spanish": "/es/galeria/", "german": "/de/galerie/" };
+    const about = { "english": "/about/", "spanish": "/es/about/", "german": "/de/about/" };
+    const gallery = { "english": "/gallery/", "spanish": "/es/gallery/", "german": "/de/gallery/" };
     const contact = { "english": "/#contact-us/", "spanish": "/es/#contact-us/", "german": "/de/#contact-us/" };
 
     const pathMappings = {
@@ -25,12 +25,12 @@ function getNewPath(currentPath, selectedLanguage) {
         "/gallery/": gallery,
         "/#contact-us/": contact,
         "/es/": homepage,
-        "/es/sobre-nosotros/": about,
-        "/es/galeria/": gallery,
+        "/es/about/": about,
+        "/es/gallery/": gallery,
         "/es/#contact-us/": contact,
         "/de/": homepage,
-        "/de/ueberuns/": about,
-        "/de/galerie/": gallery,
+        "/de/about/": about,
+        "/de/gallery/": gallery,
         "/de/#contact-us/": contact
     };
 
