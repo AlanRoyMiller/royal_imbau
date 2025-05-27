@@ -41,7 +41,7 @@ msgstr "Asunto"
 #: .\core\forms.py:15 .\core\forms.py:23
 #, fuzzy
 #| msgid "Send Message"
-msgid "Message"
+msgid "Mensaje"
 msgstr "Enviar mensaje"
 
 #: .\core\templates\core\about.html:13
