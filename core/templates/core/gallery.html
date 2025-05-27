@@ -124,6 +124,28 @@
   </div>
 </div>
 
+<!-- Modal for image zoom -->
+<style>
+/* Simple modal styles */
+#imgModal {
+  display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.8); justify-content: center; align-items: center;
+}
+#imgModal.active { display: flex; }
+#imgModal img {
+  max-width: 90vw; max-height: 80vh; transition: transform 0.2s;
+  cursor: zoom-in;
+}
+#imgModal .close {
+  position: absolute; top: 20px; right: 30px; color: #fff; font-size: 2rem; cursor: pointer;
+  background: none; border: none;
+}
+</style>
+<div id="imgModal">
+  <button class="close" aria-label="Close">&times;</button>
+  <img src="" alt="">
+</div>
+
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script>
@@ -137,6 +159,51 @@
                 gutter: 10,
                 fitWidth: true
             });
+        });
+
+        // Modal logic
+        var modal = document.getElementById('imgModal');
+        var modalImg = modal.querySelector('img');
+        var closeBtn = modal.querySelector('.close');
+        var zoomed = false;
+
+        document.querySelectorAll('.grid-item img').forEach(function(img) {
+            img.style.cursor = 'pointer';
+            img.addEventListener('click', function() {
+                modal.classList.add('active');
+                modalImg.src = img.src;
+                modalImg.alt = img.alt;
+                modalImg.style.transform = 'scale(1)';
+                zoomed = false;
+            });
+        });
+
+        closeBtn.addEventListener('click', function() {
+            modal.classList.remove('active');
+            modalImg.src = '';
+        });
+
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                modalImg.src = '';
+            }
+        });
+
+        // Zoom in/out on image click
+        modalImg.addEventListener('click', function(e) {
+            e.stopPropagation();
+            zoomed = !zoomed;
+            modalImg.style.transform = zoomed ? 'scale(2)' : 'scale(1)';
+            modalImg.style.cursor = zoomed ? 'zoom-out' : 'zoom-in';
+        });
+
+        // ESC key closes modal
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && modal.classList.contains('active')) {
+                modal.classList.remove('active');
+                modalImg.src = '';
+            }
         });
     });
 </script>
