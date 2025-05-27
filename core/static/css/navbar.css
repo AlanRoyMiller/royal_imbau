@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 .navbar {
     background-color: #f3f3f2;
     display: flex;

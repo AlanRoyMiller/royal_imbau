@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 12:40+0200\n"
+"POT-Creation-Date: 2025-05-27 13:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -491,25 +491,26 @@ msgstr "Dach?"
 msgid "Company logo"
 msgstr "Firmenlogo"
 
-#: .\core\templates\core\navbar.html:25
+#: .\core\templates\core\navbar.html:20
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\core\templates\core\navbar.html:26
 msgid "Select language"
 msgstr "Sprache auswählen"
 
-#: .\core\templates\core\navbar.html:26
+#: .\core\templates\core\navbar.html:27
 msgid "English"
 msgstr "Englisch"
 
-#: .\core\templates\core\navbar.html:27
+#: .\core\templates\core\navbar.html:28
 msgid "Spanish"
 msgstr "Spanisch"
 
-#: .\core\templates\core\navbar.html:28
+#: .\core\templates\core\navbar.html:29
 msgid "German"
 msgstr "Deutsch"
 
-#: .\core\templates\core\navbar.html:35
+#: .\core\templates\core\navbar.html:36
 msgid "Mobile menu button"
 msgstr "Menüknopf für Mobilgeräte"
-
-#~ msgid "Contact"
-#~ msgstr "Kontakt"
