@@ -8,7 +8,7 @@ html {
 /* -----Hero----- */
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.76)), url("/static/img/landscape.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.76)), url("/static/img/landscape.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
