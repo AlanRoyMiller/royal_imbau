@@ -7,7 +7,5 @@ var msnry = new Masonry( grid, {
   columnWidth: 300
 });
 
-// init with selector
-var msnry = new Masonry( '.grid', {
-  // options...
-});
+// Only one Masonry initialization is needed; remove duplicate or unused code.
+// If not used in your HTML, this file has no effect.

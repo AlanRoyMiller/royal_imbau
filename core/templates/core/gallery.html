@@ -140,6 +140,16 @@
   position: absolute; top: 20px; right: 30px; color: #fff; font-size: 2rem; cursor: pointer;
   background: none; border: none;
 }
+/* Prevent stretching of vertical images in grid */
+.grid-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  /* Optional: set a max-height if you want to limit vertical size */
+  max-height: 400px;
+  margin: 0 auto;
+}
 </style>
 <div id="imgModal">
   <button class="close" aria-label="Close">&times;</button>
