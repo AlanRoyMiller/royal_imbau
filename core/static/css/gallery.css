@@ -5,7 +5,16 @@
 
 .grid-item {
     width: 300px;
+}
 
+/* Prevent stretching of images in grid */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    max-height: 400px; /* adjust as needed */
+    margin: 0 auto;
 }
 
 img {
