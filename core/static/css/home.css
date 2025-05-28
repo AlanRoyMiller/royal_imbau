@@ -58,6 +58,20 @@ html {
   animation: animate 2s steps(18) infinite, cursor .4s step-end infinite alternate;
 }
 
+
+#type-cursor {
+  display: inline-block;
+  animation: blink 1s steps(1) infinite;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+
 hr.solid {
   border-bottom: 1px solid #c2c2c2;
   margin: 0 2rem 0 2rem;

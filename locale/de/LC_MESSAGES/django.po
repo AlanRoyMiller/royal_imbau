@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 17:01+0200\n"
+"POT-Creation-Date: 2025-05-28 21:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -299,8 +299,10 @@ msgid "Description of Image 1"
 msgstr "Beschreibung von Bild 1"
 
 #: .\core\templates\core\home.html:17
-msgid "Dreaming of a new"
-msgstr "Träumen Sie von einem neuen"
+#, fuzzy
+#| msgid "Some of our work"
+msgid "Tired of your old"
+msgstr "Genug von Ihrer alten"
 
 #: .\core\templates\core\home.html:21
 msgid ""
@@ -524,6 +526,9 @@ msgstr "Kontakt"
 #: .\core\templates\core\navbar.html:32
 msgid "Mobile menu button"
 msgstr "Menüknopf für Mobilgeräte"
+
+#~ msgid "Dreaming of a new"
+#~ msgstr "Träumen Sie von einem neuen"
 
 #~ msgid ""
 #~ "Royal Imbau specializes in transformative home and commercial "
