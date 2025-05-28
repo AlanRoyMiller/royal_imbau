@@ -312,7 +312,7 @@ msgstr "Cansado de su vieja"
 msgid ""
 "Shape your dreams into reality with our specialized construction services."
 msgstr ""
-"Haz realidad tus sueños con nuestros servicios especializados de "
+"Convierte tus sueños en realidad con nuestros servicios especializados de "
 "construcción."
 
 #: .\core\templates\core\home.html:23
