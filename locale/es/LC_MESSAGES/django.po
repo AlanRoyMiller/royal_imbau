@@ -303,8 +303,7 @@ msgid "Description of Image 1"
 msgstr "Descripción de la imagen 1"
 
 #: .\core\templates\core\home.html:17
-#, fuzzy
-#| msgid "Some of our work"
+
 msgid "Tired of your old"
 msgstr "Cansado de su vieja"
 
