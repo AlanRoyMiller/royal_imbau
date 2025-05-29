@@ -89,7 +89,7 @@ hr.solid {
   }
 }
 
-#free-quotebtn {
+#free-quotebtn:hover {
   color: white;
   box-shadow: 0 0 20px 2px #5f92cdb2;
 }
