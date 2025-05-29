@@ -8,7 +8,7 @@ html {
 /* -----Hero----- */
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.76)), url("/static/img/landscape.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.66)), url("/static/img/landscape.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,6 +87,11 @@ hr.solid {
   100% {
     left: 0%;
   }
+}
+
+#free-quotebtn {
+  color: white;
+  box-shadow: 0 0 20px 2px #5f92cdb2;
 }
 
 .hero-shape {

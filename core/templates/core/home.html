@@ -15,12 +15,12 @@
         <div class="hero-text">
             <div class="hero-title">
                 <h1>{% trans "Tired of your old" %}</h1>
-                <h1 class="space-title"><span id="type-space"></span><span id="type-cursor">|</span></h1>
+                <h1 class="space-title"><span id="type-space"></span><span id="type-cursor">|</span>?</h1>
             </div>
             <div class="hero-shape">
-                <p>{% trans "Shape your dreams into reality with our specialized construction services." %}</p>
+                <p>{% trans "Premium renovations with expert craftsmanship" %}</p>
 
-                <a href="#contact-us" class="btn">{% trans "Get Started" %}</a>
+                <a href="#contact-us" id="free-quotebtn" class="btn">{% trans "Get a Free Quote" %}</a>
             </div>
         </div>
     </section>
@@ -106,7 +106,7 @@
 			</div>
 		</div>
 
-        <h3><a class="view-more" href="{% url 'gallery' %}">{% trans "View our full Gallery..." %}</a></h3>
+        <h3><a class="view-more" href="{% url 'gallery' %}">{% trans "Click here to view our full Gallery..." %}</a></h3>
     </section>
 
 
@@ -188,28 +188,28 @@
     let j = 0;
     let currentText = '';
     const texts = [
-        "{% trans 'Kitchen?' %}",
-        "{% trans 'Bathroom?' %}",
-        "{% trans 'Bedroom?' %}",
-        "{% trans 'Living Room?' %}",
-        "{% trans 'Dining Room?' %}",
-        "{% trans 'Home Office?' %}",
-        "{% trans 'Playroom?' %}",
-        "{% trans 'Basement?' %}",
-        "{% trans 'Attic?' %}",
-        "{% trans 'Home Theater?' %}",
-        "{% trans 'Gym?' %}",
-        "{% trans 'Pool?' %}",
-        "{% trans 'Patio?' %}",
-        "{% trans 'Deck?' %}",
-        "{% trans 'Porch?' %}",
-        "{% trans 'Backyard?' %}",
-        "{% trans 'Garden?' %}",
-        "{% trans 'Garage?' %}",
-        "{% trans 'Pavement?' %}",
-        "{% trans 'Staircase?' %}",
-        "{% trans 'Balcony?' %}",
-        "{% trans 'Roof?' %}"
+        "{% trans 'Kitchen' %}",
+        "{% trans 'Bathroom' %}",
+        "{% trans 'Bedroom' %}",
+        "{% trans 'Living Room' %}",
+        "{% trans 'Dining Room' %}",
+        "{% trans 'Home Office' %}",
+        "{% trans 'Playroom' %}",
+        "{% trans 'Basement' %}",
+        "{% trans 'Attic' %}",
+        "{% trans 'Home Theater' %}",
+        "{% trans 'Gym' %}",
+        "{% trans 'Pool' %}",
+        "{% trans 'Patio' %}",
+        "{% trans 'Deck' %}",
+        "{% trans 'Porch' %}",
+        "{% trans 'Backyard' %}",
+        "{% trans 'Garden' %}",
+        "{% trans 'Garage' %}",
+        "{% trans 'Pavement' %}",
+        "{% trans 'Staircase' %}",
+        "{% trans 'Balcony' %}",
+        "{% trans 'Roof' %}"
     ];
 
 

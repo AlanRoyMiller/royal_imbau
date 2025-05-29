@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-28 21:03+0200\n"
+"POT-Creation-Date: 2025-05-29 15:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Deutsch <LL@li.org>\n"
@@ -303,15 +303,12 @@ msgid "Tired of your old"
 msgstr "Genug von Ihrer alten"
 
 #: .\core\templates\core\home.html:21
-msgid ""
-"Shape your dreams into reality with our specialized construction services."
-msgstr ""
-"Verwirklichen Sie Ihre Träume mit unseren spezialisierten "
-"Baudienstleistungen."
+msgid "Premium renovations with expert craftsmanship"
+msgstr "Hochwertige Renovierungen mit handwerklichem Geschick"
 
 #: .\core\templates\core\home.html:23
-msgid "Get Started"
-msgstr "Jetzt starten"
+msgid "Get a Free Quote"
+msgstr "Kostenloses Angebot einholen"
 
 #: .\core\templates\core\home.html:33 .\core\templates\core\navbar.html:18
 #, fuzzy
@@ -390,8 +387,10 @@ msgid "A first glance of what we can do"
 msgstr "Ein erster Eindruck von unseren Möglichkeiten"
 
 #: .\core\templates\core\home.html:109
-msgid "View our full Gallery..."
-msgstr "Unsere gesamte Galerie ansehen..."
+#, fuzzy
+#| msgid "View our full Gallery..."
+msgid "Click here to view our full Gallery..."
+msgstr "Klicken Sie hier, um unsere gesamte Galerie zu sehen..."
 
 #: .\core\templates\core\home.html:116
 msgid "What Our Customers Say"
@@ -426,91 +425,135 @@ msgid "Address"
 msgstr "Adresse"
 
 #: .\core\templates\core\home.html:191
-msgid "Kitchen?"
+#, fuzzy
+#| msgid "Kitchen?"
+msgid "Kitchen"
 msgstr "Küche?"
 
 #: .\core\templates\core\home.html:192
-msgid "Bathroom?"
+#, fuzzy
+#| msgid "Bathroom?"
+msgid "Bathroom"
 msgstr "Badezimmer?"
 
 #: .\core\templates\core\home.html:193
-msgid "Bedroom?"
+#, fuzzy
+#| msgid "Bedroom?"
+msgid "Bedroom"
 msgstr "Schlafzimmer?"
 
 #: .\core\templates\core\home.html:194
-msgid "Living Room?"
+#, fuzzy
+#| msgid "Living Room?"
+msgid "Living Room"
 msgstr "Wohnzimmer?"
 
 #: .\core\templates\core\home.html:195
-msgid "Dining Room?"
+#, fuzzy
+#| msgid "Dining Room?"
+msgid "Dining Room"
 msgstr "Esszimmer?"
 
 #: .\core\templates\core\home.html:196
-msgid "Home Office?"
+#, fuzzy
+#| msgid "Home Office?"
+msgid "Home Office"
 msgstr "Arbeitszimmer?"
 
 #: .\core\templates\core\home.html:197
-msgid "Playroom?"
+#, fuzzy
+#| msgid "Playroom?"
+msgid "Playroom"
 msgstr "Spielzimmer?"
 
 #: .\core\templates\core\home.html:198
-msgid "Basement?"
+#, fuzzy
+#| msgid "Basement?"
+msgid "Basement"
 msgstr "Keller?"
 
 #: .\core\templates\core\home.html:199
-msgid "Attic?"
+#, fuzzy
+#| msgid "Attic?"
+msgid "Attic"
 msgstr "Dachboden?"
 
 #: .\core\templates\core\home.html:200
-msgid "Home Theater?"
+#, fuzzy
+#| msgid "Home Theater?"
+msgid "Home Theater"
 msgstr "Heimkino?"
 
 #: .\core\templates\core\home.html:201
-msgid "Gym?"
+#, fuzzy
+#| msgid "Gym?"
+msgid "Gym"
 msgstr "Fitnessraum?"
 
 #: .\core\templates\core\home.html:202
-msgid "Pool?"
+#, fuzzy
+#| msgid "Pool?"
+msgid "Pool"
 msgstr "Pool?"
 
 #: .\core\templates\core\home.html:203
-msgid "Patio?"
+#, fuzzy
+#| msgid "Patio?"
+msgid "Patio"
 msgstr "Terrasse?"
 
 #: .\core\templates\core\home.html:204
-msgid "Deck?"
+#, fuzzy
+#| msgid "Deck?"
+msgid "Deck"
 msgstr "Deck?"
 
 #: .\core\templates\core\home.html:205
-msgid "Porch?"
+#, fuzzy
+#| msgid "Porch?"
+msgid "Porch"
 msgstr "Veranda?"
 
 #: .\core\templates\core\home.html:206
-msgid "Backyard?"
+#, fuzzy
+#| msgid "Backyard?"
+msgid "Backyard"
 msgstr "Hinterhof?"
 
 #: .\core\templates\core\home.html:207
-msgid "Garden?"
+#, fuzzy
+#| msgid "Garden?"
+msgid "Garden"
 msgstr "Garten?"
 
 #: .\core\templates\core\home.html:208
-msgid "Garage?"
+#, fuzzy
+#| msgid "Garage?"
+msgid "Garage"
 msgstr "Garage?"
 
 #: .\core\templates\core\home.html:209
-msgid "Pavement?"
+#, fuzzy
+#| msgid "Pavement?"
+msgid "Pavement"
 msgstr "Gehweg?"
 
 #: .\core\templates\core\home.html:210
-msgid "Staircase?"
+#, fuzzy
+#| msgid "Staircase?"
+msgid "Staircase"
 msgstr "Treppe?"
 
 #: .\core\templates\core\home.html:211
-msgid "Balcony?"
+#, fuzzy
+#| msgid "Balcony?"
+msgid "Balcony"
 msgstr "Balkon?"
 
 #: .\core\templates\core\home.html:212
-msgid "Roof?"
+#, fuzzy
+#| msgid "Roof?"
+msgid "Roof"
 msgstr "Dach?"
 
 #: .\core\templates\core\navbar.html:11
@@ -524,6 +567,15 @@ msgstr "Kontakt"
 #: .\core\templates\core\navbar.html:32
 msgid "Mobile menu button"
 msgstr "Menüknopf für Mobilgeräte"
+
+#~ msgid ""
+#~ "Shape your dreams into reality with our specialized construction services."
+#~ msgstr ""
+#~ "Verwirklichen Sie Ihre Träume mit unseren spezialisierten "
+#~ "Baudienstleistungen."
+
+#~ msgid "Get Started"
+#~ msgstr "Jetzt starten"
 
 #~ msgid "Dreaming of a new"
 #~ msgstr "Träumen Sie von einem neuen"
