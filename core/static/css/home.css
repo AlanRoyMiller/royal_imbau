@@ -58,10 +58,9 @@ html {
   animation: animate 2s steps(18) infinite, cursor .4s step-end infinite alternate;
 }
 
-.type-question {
-  vertical-align: middle;
-  font-size: 1em; /* Match the animated text size */
-}
+/* .type-question {
+  font-size: 1em; 
+} */
 
 #type-cursor {
   display: inline-block;
