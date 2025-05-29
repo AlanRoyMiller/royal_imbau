@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -311,8 +310,6 @@ msgid "Get a Free Quote"
 msgstr "Kostenloses Angebot einholen"
 
 #: .\core\templates\core\home.html:33 .\core\templates\core\navbar.html:18
-#, fuzzy
-#| msgid "About"
 msgid "About Us"
 msgstr "Über uns"
 
@@ -387,8 +384,6 @@ msgid "A first glance of what we can do"
 msgstr "Ein erster Eindruck von unseren Möglichkeiten"
 
 #: .\core\templates\core\home.html:109
-#, fuzzy
-#| msgid "View our full Gallery..."
 msgid "Click here to view our full Gallery..."
 msgstr "Klicken Sie hier, um unsere gesamte Galerie zu sehen..."
 

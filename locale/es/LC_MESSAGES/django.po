@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -315,8 +314,6 @@ msgid "Get a Free Quote"
 msgstr "Solicita tu presupuesto"
 
 #: .\core\templates\core\home.html:33 .\core\templates\core\navbar.html:18
-#, fuzzy
-#| msgid "About"
 msgid "About Us"
 msgstr "Acerca de"
 
@@ -391,8 +388,6 @@ msgid "A first glance of what we can do"
 msgstr "Un primer vistazo a lo que podemos hacer"
 
 #: .\core\templates\core\home.html:109
-#, fuzzy
-#| msgid "View our full Gallery..."
 msgid "Click here to view our full Gallery..."
 msgstr "Haga clic aquí para ver nuestra Galería completa..."
 
@@ -429,134 +424,90 @@ msgid "Address"
 msgstr "Dirección"
 
 #: .\core\templates\core\home.html:191
-#, fuzzy
-#| msgid "Kitchen?"
 msgid "Kitchen"
 msgstr "Cocina"
 
 #: .\core\templates\core\home.html:192
-#, fuzzy
-#| msgid "Bathroom?"
 msgid "Bathroom"
 msgstr "Baño"
 
 #: .\core\templates\core\home.html:193
-#, fuzzy
-#| msgid "Bedroom?"
 msgid "Bedroom"
 msgstr "Dormitorio"
 
 #: .\core\templates\core\home.html:194
-#, fuzzy
-#| msgid "Living Room?"
 msgid "Living Room"
 msgstr "Salón"
 
 #: .\core\templates\core\home.html:195
-#, fuzzy
-#| msgid "Dining Room?"
 msgid "Dining Room"
 msgstr "Comedor"
 
 #: .\core\templates\core\home.html:196
-#, fuzzy
-#| msgid "Home Office?"
 msgid "Home Office"
 msgstr "Oficina"
 
 #: .\core\templates\core\home.html:197
-#, fuzzy
-#| msgid "Playroom?"
 msgid "Playroom"
 msgstr "Sala de juegos"
 
 #: .\core\templates\core\home.html:198
-#, fuzzy
-#| msgid "Basement?"
 msgid "Basement"
 msgstr "Sótano"
 
 #: .\core\templates\core\home.html:199
-#, fuzzy
-#| msgid "Attic?"
 msgid "Attic"
 msgstr "Ático"
 
 #: .\core\templates\core\home.html:200
-#, fuzzy
-#| msgid "Home Theater?"
 msgid "Home Theater"
 msgstr "Cine en casa"
 
 #: .\core\templates\core\home.html:201
-#, fuzzy
-#| msgid "Gym?"
 msgid "Gym"
 msgstr "Gimnasio"
 
 #: .\core\templates\core\home.html:202
-#, fuzzy
-#| msgid "Pool?"
 msgid "Pool"
 msgstr "Piscina"
 
 #: .\core\templates\core\home.html:203
-#, fuzzy
-#| msgid "Patio?"
 msgid "Patio"
 msgstr "Patio"
 
 #: .\core\templates\core\home.html:204
-#, fuzzy
-#| msgid "Deck?"
 msgid "Deck"
 msgstr "Terraza"
 
 #: .\core\templates\core\home.html:205
-#, fuzzy
-#| msgid "Porch?"
 msgid "Porch"
 msgstr "Porche"
 
 #: .\core\templates\core\home.html:206
-#, fuzzy
-#| msgid "Backyard?"
 msgid "Backyard"
 msgstr "Jardín trasero"
 
 #: .\core\templates\core\home.html:207
-#, fuzzy
-#| msgid "Garden?"
 msgid "Garden"
 msgstr "Jardín"
 
 #: .\core\templates\core\home.html:208
-#, fuzzy
-#| msgid "Garage?"
 msgid "Garage"
 msgstr "Garaje"
 
 #: .\core\templates\core\home.html:209
-#, fuzzy
-#| msgid "Pavement?"
 msgid "Pavement"
 msgstr "Pavimento"
 
 #: .\core\templates\core\home.html:210
-#, fuzzy
-#| msgid "Staircase?"
 msgid "Staircase"
 msgstr "Escalera"
 
 #: .\core\templates\core\home.html:211
-#, fuzzy
-#| msgid "Balcony?"
 msgid "Balcony"
 msgstr "Balcón"
 
 #: .\core\templates\core\home.html:212
-#, fuzzy
-#| msgid "Roof?"
 msgid "Roof"
 msgstr "Tejado"
 
