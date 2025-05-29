@@ -428,133 +428,133 @@ msgstr "Adresse"
 #, fuzzy
 #| msgid "Kitchen?"
 msgid "Kitchen"
-msgstr "Küche?"
+msgstr "Küche"
 
 #: .\core\templates\core\home.html:192
 #, fuzzy
 #| msgid "Bathroom?"
 msgid "Bathroom"
-msgstr "Badezimmer?"
+msgstr "Badezimmer"
 
 #: .\core\templates\core\home.html:193
 #, fuzzy
 #| msgid "Bedroom?"
 msgid "Bedroom"
-msgstr "Schlafzimmer?"
+msgstr "Schlafzimmer"
 
 #: .\core\templates\core\home.html:194
 #, fuzzy
 #| msgid "Living Room?"
 msgid "Living Room"
-msgstr "Wohnzimmer?"
+msgstr "Wohnzimmer"
 
 #: .\core\templates\core\home.html:195
 #, fuzzy
 #| msgid "Dining Room?"
 msgid "Dining Room"
-msgstr "Esszimmer?"
+msgstr "Esszimmer"
 
 #: .\core\templates\core\home.html:196
 #, fuzzy
 #| msgid "Home Office?"
 msgid "Home Office"
-msgstr "Arbeitszimmer?"
+msgstr "Arbeitszimmer"
 
 #: .\core\templates\core\home.html:197
 #, fuzzy
 #| msgid "Playroom?"
 msgid "Playroom"
-msgstr "Spielzimmer?"
+msgstr "Spielzimmer"
 
 #: .\core\templates\core\home.html:198
 #, fuzzy
 #| msgid "Basement?"
 msgid "Basement"
-msgstr "Keller?"
+msgstr "Keller"
 
 #: .\core\templates\core\home.html:199
 #, fuzzy
 #| msgid "Attic?"
 msgid "Attic"
-msgstr "Dachboden?"
+msgstr "Dachboden"
 
 #: .\core\templates\core\home.html:200
 #, fuzzy
 #| msgid "Home Theater?"
 msgid "Home Theater"
-msgstr "Heimkino?"
+msgstr "Heimkino"
 
 #: .\core\templates\core\home.html:201
 #, fuzzy
 #| msgid "Gym?"
 msgid "Gym"
-msgstr "Fitnessraum?"
+msgstr "Fitnessraum"
 
 #: .\core\templates\core\home.html:202
 #, fuzzy
 #| msgid "Pool?"
 msgid "Pool"
-msgstr "Pool?"
+msgstr "Pool"
 
 #: .\core\templates\core\home.html:203
 #, fuzzy
 #| msgid "Patio?"
 msgid "Patio"
-msgstr "Terrasse?"
+msgstr "Terrasse"
 
 #: .\core\templates\core\home.html:204
 #, fuzzy
 #| msgid "Deck?"
 msgid "Deck"
-msgstr "Deck?"
+msgstr "Deck"
 
 #: .\core\templates\core\home.html:205
 #, fuzzy
 #| msgid "Porch?"
 msgid "Porch"
-msgstr "Veranda?"
+msgstr "Veranda"
 
 #: .\core\templates\core\home.html:206
 #, fuzzy
 #| msgid "Backyard?"
 msgid "Backyard"
-msgstr "Hinterhof?"
+msgstr "Hinterhof"
 
 #: .\core\templates\core\home.html:207
 #, fuzzy
 #| msgid "Garden?"
 msgid "Garden"
-msgstr "Garten?"
+msgstr "Garten"
 
 #: .\core\templates\core\home.html:208
 #, fuzzy
 #| msgid "Garage?"
 msgid "Garage"
-msgstr "Garage?"
+msgstr "Garage"
 
 #: .\core\templates\core\home.html:209
 #, fuzzy
 #| msgid "Pavement?"
 msgid "Pavement"
-msgstr "Gehweg?"
+msgstr "Gehweg"
 
 #: .\core\templates\core\home.html:210
 #, fuzzy
 #| msgid "Staircase?"
 msgid "Staircase"
-msgstr "Treppe?"
+msgstr "Treppe"
 
 #: .\core\templates\core\home.html:211
 #, fuzzy
 #| msgid "Balcony?"
 msgid "Balcony"
-msgstr "Balkon?"
+msgstr "Balkon"
 
 #: .\core\templates\core\home.html:212
 #, fuzzy
 #| msgid "Roof?"
 msgid "Roof"
-msgstr "Dach?"
+msgstr "Dach"
 
 #: .\core\templates\core\navbar.html:11
 msgid "Company logo"
