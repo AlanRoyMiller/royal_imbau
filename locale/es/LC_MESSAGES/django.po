@@ -303,7 +303,7 @@ msgstr "Descripción de la imagen 1"
 
 #: .\core\templates\core\home.html:17
 msgid "Tired of your old"
-msgstr "Cansado de su vieja"
+msgstr "Cansado de su vieja/o"
 
 #: .\core\templates\core\home.html:21
 msgid "Premium renovations with expert craftsmanship"
