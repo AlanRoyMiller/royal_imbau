@@ -74,4 +74,4 @@ Optimizing layout and typography for readability
 Importance of responsive design from the start
 
 💬 Feedback Welcome
-Feel free to open issues or contact me with suggestions or feedback. If you’re a business owner or agency and would like a site like this built — let’s talk!
+Feel free to open issues or contact me with suggestions or feedback. If you’re a business owner or agency and would like a site like this built, let’s talk!
