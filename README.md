@@ -14,7 +14,7 @@ What I built:
 
 📱 Mobile-first layout with adaptive components
 
-🌍 Multi-language dropdown (ready for EN/ES integration)
+🌍 Multi-language dropdown
 
 📍 Embedded Google Maps with contact details
 
