@@ -1,5 +1,5 @@
 🏗️ Royal Imbau – Construction Website Portfolio Project
-This is a fully responsive website I designed and developed for a fictional construction company, Royal Imbau, to showcase my ability to create elegant, professional websites tailored for local service businesses.
+This is a fully responsive website I designed and developed for a construction company, Royal Imbau, to showcase my ability to create elegant, professional websites tailored for local service businesses.
 
 🔗 Live Demo: www.royal-imbau.com
 
